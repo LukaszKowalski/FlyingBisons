@@ -137,8 +137,63 @@ h1{
     margin-left: -14px;
 }
 
-#leftcol {
+#bulletsCol {
+    background-color: #1b2339 ;
+    height: 100vh;
+    display:block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#sparetimeCol {
+    height: 100vh;
+    background-color: #d9289e;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#owllerCol {
+    background-color: #ffd30f ;
+    height: 100vh;
+    display:block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#doCol {
+    background-color: #1f2e73 ;
+    height: 100vh;
+    display:block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#tizzyCol {
+    background-color: #ff0028 ;
+    height: 100vh;
+    display:block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#fileyCol {
+    background-color: #1f8bce ;
+    height: 100vh;
+    display:block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#inCol {
     background-color: #242835;
+    height: 100vh;
+    display:block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#lookCol {
+    background-color: #c61616 ;
     height: 100vh;
     display:block;
     padding-left: 0px;
@@ -152,7 +207,7 @@ h1{
     padding-right: 0px;
 }
 
-#leftcol:hover > #bullets{
+#bulletsCol:hover > #bullets{
     transition-duration: 8.5s;
     -webkit-transform: scale(1.1, 1.1);
    -moz-transform: scale(1.1, 1.1);
@@ -192,12 +247,6 @@ h1{
     top: 50%;
 }
 
-#rightcol {
-    height: 100vh;
-    background-color: #cf4674;
-    padding-left: 0px;
-    padding-right: 0px;
-}
 
 #rightcolAfterClick{
     background-color: #fff;

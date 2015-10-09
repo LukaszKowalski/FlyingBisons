@@ -19,7 +19,7 @@
           <script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage'],
                 fixedElements: '#navigation',
                 scrollOverflow: true,
                 afterLoad: function(anchorLink, index){
@@ -44,13 +44,13 @@
 		});
 
           $(function() {
-            $("#leftcol").mouseenter(function(){
+            $("#bulletsCol").mouseenter(function(){
               $("#bullets").stop(true, false).animate({ "opacity": .5 }, 300); }); });
           $(function() {
-            $("#leftcol").mouseleave(function(){
+            $("#bulletsCol").mouseleave(function(){
                $("#bullets").stop(true, false).animate({ "opacity": 0 }, 300); });  });
           $(function() {
-               $('#leftcol').on('click', function(){
+               $('#bulletsCol').on('click', function(){
                 $.fn.fullpage.destroy();
                 $('#sectionAfterClick').addClass('secondLayer');
                 $('#sectionOne').addClass('displayNone');
@@ -121,28 +121,95 @@
                 </div>
                 <img id="mouse" src="MyszkaColor.png">
             </div>
+            
+<!--            // SECTION TWO //-->
+            
             <div class="section" id="sectionTwo">
+                
+<!--            // SECTION TWO AFTER CLICK //-->
+
                     <div id="sectionAfterClick" class="sectionAfterClick">
                         <div class="col-md-7" id="leftcolAfterClick">
                             <img src="output_DE4XHW.gif" id="bulletsAfterClick">   
-                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">    
-                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">
-
                         </div>
                         <div class="col-md-5" id="rightcolAfterClick">
                         </div>
                     </div>
-                <div class="col-md-6" id="leftcol">
+                
+<!--            // SECTION TWO BEFORE CLICK //-->
+                
+                <div class="col-md-6" id="bulletsCol">
                     <img src="output_DE4XHW.gif" id="bullets">
                     <img src="bulletsLogo.png" id="bulletsLogo">
 
                 </div>
-                <div class="col-md-6" id="rightcol">
+                <div class="col-md-6" id="sparetimeCol">
                     <img src="sparetime.png" id="sparetimeLogo">
                 </div>
             </div>
-            <div class="section" id="sectionThree"></div>
-            <div class="section" id="sectionFour"></div>
+            
+<!--            // SECTION THREE //-->
+
+            
+            <div class="section" id="sectionThree">
+                <div id="sectionAfterClick" class="sectionAfterClick">
+                        <div class="col-md-7" id="leftcolAfterClick">
+                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">   
+                        </div>
+                        <div class="col-md-5" id="rightcolAfterClick">
+                        </div>
+                    </div>
+                <div class="col-md-6" id="doCol">
+                    <img src="output_DE4XHW.gif" id="bullets">
+                    <img src="LogoDo.png" id="bulletsLogo">
+
+                </div>
+                <div class="col-md-6" id="owllerCol">
+                    <img src="LogoOwller.png" id="sparetimeLogo">
+                </div>
+            </div>
+            
+<!--            // SECTION FOUR //-->
+            
+            <div class="section" id="sectionFour">
+                <div id="sectionAfterClick" class="sectionAfterClick">
+                        <div class="col-md-7" id="leftcolAfterClick">
+                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">   
+                        </div>
+                        <div class="col-md-5" id="rightcolAfterClick">
+                        </div>
+                    </div>
+                <div class="col-md-6" id="lookCol">
+                    <img src="output_DE4XHW.gif" id="bullets">
+                    <img src="LogoLOOK.png" id="bulletsLogo">
+
+                </div>
+                <div class="col-md-6" id="fileyCol">
+                    <img src="LogoFiley.png" id="sparetimeLogo">
+                </div>
+            </div>
+            
+<!--            // SECTION FIVE //-->
+
+            
+            <div class="section" id="sectionFive">
+                <div id="sectionAfterClick" class="sectionAfterClick">
+                        <div class="col-md-7" id="leftcolAfterClick">
+                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">   
+                        </div>
+                        <div class="col-md-5" id="rightcolAfterClick">
+                        </div>
+                    </div>
+                <div class="col-md-6" id="inCol">
+                    <img src="output_DE4XHW.gif" id="bullets">
+                    <img src="logoIN.png" id="bulletsLogo">
+
+                </div>
+                <div class="col-md-6" id="tizzyCol">
+                    <img src="LogoTizzy.png" id="sparetimeLogo">
+                </div>
+            </div>
+            
         </div>
         
 
