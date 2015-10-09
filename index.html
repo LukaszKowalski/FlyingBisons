@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FlyingBisons.com</title>
+        <meta name="description" content="Mobile studio">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <script src="http://ricostacruz.com/jquery.transit/jquery.transit.js?v=14845"></script>
+        
+        
+        
+          <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+                fixedElements: '#navigation',
+                scrollOverflow: true,
+                afterLoad: function(anchorLink, index){
+                    var loadedSection = $(this);
+
+                    //using anchorLink
+                    if(anchorLink == 'secondPage'){
+                        $('.nav').addClass('color');
+                        $('#bisonLogo').addClass('hiddenNot');
+                    }
+                },
+                onLeave: function(index, nextIndex, direction){
+                    var leavingSection = $(this);
+
+                    //after leaving section 2
+                    if(index == 2 && direction =='up'){
+                        $('.nav').removeClass('color');
+                        $('#bisonLogo').removeClass('hiddenNot');
+                    }
+                }
+			});
+		});
+
+          $(function() {
+            $("#leftcol").mouseenter(function(){
+              $("#bullets").stop(true, false).animate({ "opacity": .5 }, 300); }); });
+          $(function() {
+            $("#leftcol").mouseleave(function(){
+               $("#bullets").stop(true, false).animate({ "opacity": 0 }, 300); });  });
+          $(function() {
+               $('#leftcol').on('click', function(){
+                $.fn.fullpage.destroy();
+                $('#sectionAfterClick').addClass('secondLayer');
+                $('#sectionOne').addClass('displayNone');
+                $('#sectionThree').addClass('displayNone');
+                $('#sectionFour').addClass('displayNone');
+                window.scrollTo(0, 0);
+
+               }); 
+            });
+          $(function() {
+             $('.nav').on('click', function(){
+                $('#sectionOne').removeClass('displayNone');
+                $('#sectionThree').removeClass('displayNone');
+                $('#sectionFour').removeClass('displayNone');
+                createFullpage();
+                $('#sectionAfterClick').removeClass('secondLayer'); 
+               }); 
+            });
+        
+        function createFullpage() {
+            			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+                fixedElements: '#navigation',
+                scrollOverflow: true,
+                afterLoad: function(anchorLink, index){
+                    var loadedSection = $(this);
+
+                    //using anchorLink
+                    if(anchorLink == 'secondPage'){
+                        $('.nav').addClass('color');
+                        $('#bisonLogo').addClass('hiddenNot');
+                    }
+                },
+                onLeave: function(index, nextIndex, direction){
+                    var leavingSection = $(this);
+
+                    //after leaving section 2
+                    if(index == 2 && direction =='up'){
+                        $('.nav').removeClass('color');
+                        $('#bisonLogo').removeClass('hiddenNot');
+                    }
+                }
+			});
+            $.fn.fullpage.silentMoveTo('secondPage');
+        }
+        
+        </script>
+        
+        
+        
+    </head>
+    <body>
+        <div class="nav">
+                <img src="flyingbisonslogo.jpg" id="bisonLogo">
+                <ul>
+                    <li><a href="#sectionTwo">about</a></li>
+                    <li><a href="#">work</a></li>
+                    <li><a href="#">fly with us</a></li>
+                </ul>
+        </div>
+        
+        <div id="fullpage">
+            <div class="section" id="sectionOne">
+                <img id="logoBig" src="LogoColorBig.png">
+                <div class="container">    
+                    <h1>bison solid code<br>and flying design</h1>
+                    <p>MOBILE & WEB DESIGN STUDIO</p>
+                </div>
+                <img id="mouse" src="MyszkaColor.png">
+            </div>
+            <div class="section" id="sectionTwo">
+                    <div id="sectionAfterClick" class="sectionAfterClick">
+                        <div class="col-md-7" id="leftcolAfterClick">
+                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">   
+                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">    
+                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">
+
+                        </div>
+                        <div class="col-md-5" id="rightcolAfterClick">
+                        </div>
+                    </div>
+                <div class="col-md-6" id="leftcol">
+                    <img src="output_DE4XHW.gif" id="bullets">
+                    <img src="bulletsLogo.png" id="bulletsLogo">
+
+                </div>
+                <div class="col-md-6" id="rightcol">
+                    <img src="sparetime.png" id="sparetimeLogo">
+                </div>
+            </div>
+            <div class="section" id="sectionThree"></div>
+            <div class="section" id="sectionFour"></div>
+        </div>
+        
+
+
+        
+    </body>
+</html>
