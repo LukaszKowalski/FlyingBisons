@@ -97,6 +97,13 @@ body li:last-child{
     width: 100%;
 }
 
+.hamburger{
+    position: fixed;
+    top: 5px;
+    right: 10px;
+      
+}
+
 body #sectionOne .container{
     margin: 0;
     position: absolute;
@@ -374,9 +381,6 @@ p {
     }
 
 .hiddenNot{
-    position: fixed;
-    top: 0;
-    left: 0;
     z-index: 1000;
     visibility: visible !important;
 }
@@ -392,6 +396,10 @@ p {
 }
 
 /* Media Queries */
+/*
+
+IPHONE 6+
+*/
 
 @media (max-width: 414px) {
     #logoBig {
@@ -403,6 +411,19 @@ p {
         margin-left: -175px;
         margin-top: -90px;
     }
+    #bisonLogo{
+        height: 34px; !important;
+        width: 122px; !important;
+        top: 15px; !important;
+        left: 15px; !important;
+        z-index: 1000;
+        visibility: visible !important;
+    }
+    
+   #desktopNav{
+        display: none !important;
+    }
+    
     #bulletsCol {
         background-color: #1b2339 ;
         height: 50%;
@@ -565,8 +586,8 @@ p {
         top: 50%;
     }
 }
-}
 
+/*IPHONE  6*/
 
 @media (max-width: 375px) {
     #logoBig {
@@ -578,6 +599,21 @@ p {
         margin-left: -140px;
         margin-top: -74px;
     }
+
+/*    NAVIGATION*/
+    #desktopNav{
+        display: none !important;
+    }
+    
+    #bisonLogo{
+        height: 34px; !important;
+        width: 122px; !important;
+        top: 15px; !important;
+        left: 15px; !important;
+        z-index: 1000;
+        visibility: visible !important;
+    }
+        
     #bulletsCol {
         background-color: #1b2339 ;
         height: 50%;
@@ -753,6 +789,19 @@ p {
         margin-left: -140px;
         margin-top: -74px;
     }
+     #bisonLogo{
+        height: 34px;
+        width: 122px;
+        top: 15px;
+        left: 15px;
+        z-index: 1000;
+        visibility: visible !important;
+     }
+     
+    #desktopNav{
+        display: none !important;
+    }
+    
     #bulletsCol {
         background-color: #1b2339 ;
         height: 50%;
@@ -932,6 +981,19 @@ p {
         margin-left: -140px;
         margin-top: -74px;
     }
+     #bisonLogo{
+        height: 34px;
+        width: 122px;
+        top: 15px;
+        left: 15px;
+        z-index: 1000;
+        visibility: visible !important;
+     }
+    
+    #desktopNav{
+        display: none !important;
+    }
+    
     #bulletsCol {
         background-color: #1b2339 ;
         height: 50%;
