@@ -370,6 +370,78 @@ p {
         margin-left: -140px;
         margin-top: -74px;
     }
+    #bulletsCol {
+        background-color: #1b2339 ;
+        height: 50%;
+        width: 100%;
+        display:block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    #sparetimeCol {
+        height: 50%;
+        width: 100%;
+        background-color: #d9289e;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #owllerCol {
+        background-color: #ffd30f ;
+        height: 50%;
+        width: 100%;
+        display:block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #doCol {
+        background-color: #1f2e73 ;
+        height: 50%;
+        width: 100%;
+        display:block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #tizzyCol {
+        background-color: #ff0028 ;
+        height: 50%;
+        width: 100%;
+        display:block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #fileyCol {
+        background-color: #1f8bce ;
+        height: 50%;
+        width: 100%;
+        display:block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #inCol {
+        background-color: #242835;
+        height: 50%;
+        width: 100%;
+        display:block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #lookCol {
+        background-color: #c61616 ;
+        height: 50%;
+        width: 100%;
+        display:block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    
 }
 
 
