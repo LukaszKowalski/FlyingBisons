@@ -315,12 +315,12 @@ h1{
     padding-right: 0px;
 }
 
-#sectionAfterClick{
+.sectionAfterClick{
     pointer-events: none;
     position: absolute;
     left: 0px;
     top: 0px;
-    height: 2500px;
+    height: 100%;
     display:block;
     width: 100%;
     z-index: 100;
@@ -341,6 +341,27 @@ h1{
     -ms-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
+}
+
+.sslide {
+    background-color: aqua;
+}
+
+#one {
+   background-image: url('Bisons-Tizzy1.jpg');
+    background-size: cover;
+}
+
+#two {
+   background-image: url('Bisons-Tizzy2.jpg');
+    background-size: cover;    
+    
+}
+#three {
+   background-color: red;
+}
+#four {
+   background-color: green;  
 }
 
 
