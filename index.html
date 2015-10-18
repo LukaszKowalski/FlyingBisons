@@ -24,7 +24,7 @@
           $(document).alton({
                 fullSlideContainer: 'full', // Tell Alton the full height container
                 singleSlideClass: 'sslide', // Tell Alton the full height slide class
-                useSlideNumbers: true, // Set to false if you don't want to use pagination
+                useSlideNumbers: false, // Set to false if you don't want to use pagination
                 slideNumbersBorderColor: '#fff', // Set the outside color of the pagination items (also used for active)
                 slideNumbersColor: 'transparent', // Set the inner color of the pagination items (not active)
                 bodyContainer: 'pageWrapper', // Tell Alton the body class
@@ -40,7 +40,7 @@
 //                    using anchorLink
 
                     if(anchorLink == 'secondPage'){
-                        $('.nav').addClass('color');
+                        $('#firstMenu').addClass('color');
                         $('#bisonLogo').addClass('hiddenNot');
                     }
                 },
@@ -50,11 +50,12 @@
                     //after leaving section 2
                     
                     if(index == 2 && direction =='up'){
-                        $('.nav').removeClass('color');
+                        $('#firstMenu').removeClass('color');
                         $('#bisonLogo').removeClass('hiddenNot');
                     }
                 }
 			});
+            $('#secondMenu').addClass('displayNone')
 		});
 
           $(function() {
@@ -63,13 +64,12 @@
           $(function() {
             $("#bulletsCol").mouseleave(function(){
                $("#bullets").stop(true, false).animate({ "opacity": 0 }, 300); });  });
+              
           $(function() {
                $('#bulletsCol').on('click', function(){
                 $.fn.fullpage.destroy();
                 $('#secondSectionLeft').addClass('secondLayer');
                 $('#sectionOne').addClass('displayNone');
-                $('#sectionThree').addClass('displayNone');
-                $('#sectionFour').addClass('displayNone');
                 window.scrollTo(0, 0);
 
                }); 
@@ -79,8 +79,8 @@
                 $.fn.fullpage.destroy();
                 $('#secondSectionRight').addClass('secondLayer');
                 $('#sectionOne').addClass('displayNone');
-                $('#sectionThree').addClass('displayNone');
-                $('#sectionFour').addClass('displayNone');
+                $('#firstMenu').addClass('displayNone');
+                $('#secondMenu').removeClass('displayNone');
                 window.scrollTo(0, 0);
 
                }); 
@@ -88,10 +88,8 @@
               
               
           $(function() {
-             $('.nav').on('click', function(){
+             $('#firstMenu').on('click', function(){
                 $('#sectionOne').removeClass('displayNone');
-                $('#sectionThree').removeClass('displayNone');
-                $('#sectionFour').removeClass('displayNone');
                 createFullpage();
                 $('#secondSectionLeft').removeClass('secondLayer'); 
                 $('#secondSectionRight').removeClass('secondLayer'); 
@@ -108,16 +106,19 @@
 
                     //using anchorLink
                     if(anchorLink == 'secondPage'){
-                        $('.nav').addClass('color');
+                        $('#firstMenu').addClass('color');
+                        $('about').addClass('whiteColor')
                         $('#bisonLogo').addClass('hiddenNot');
                     }
                 },
                 onLeave: function(index, nextIndex, direction){
                     var leavingSection = $(this);
+                    
 
                     //after leaving section 2
                     if(index == 2 && direction =='up'){
-                        $('.nav').removeClass('color');
+                        $('#firstMenu').removeClass('color');
+                        $('about').removeClass('whiteColor')
                         $('#bisonLogo').removeClass('hiddenNot');
                     }
                 }
@@ -133,12 +134,12 @@
         
     </head>
     <body class="pageWrapper">
-        <div class="nav">
-                <img src="LogoWhiteSmall.png" id="bisonLogo">
+        <div id="firstMenu" class="nav">
+                <img src="B.png" id="bisonLogo">
                 <ul id="desktopNav">
-                    <li><a href="#sectionTwo">about</a></li>
-                    <li><a href="#">work</a></li>
-                    <li><a href="#">fly with us</a></li>
+                    <li><a id="about" href="#sectionTwo">about</a></li>
+                    <li><a id="we" href="#">work</a></li>
+                    <li><a id="aboasdut" href="#">fly with us</a></li>
                 </ul>
                 <div class="hamburger">
             </div>
@@ -167,6 +168,11 @@
 
 			</nav>
 </div>
+
+                        <div id="secondMenu" class="nav">
+                            <img id="secondMenuLogo" src="LogoColorSmall.png">
+                            <img id="secondMenuProjectLogo" src="GFX/TizzyLogo.png">
+                        </div>
         </div>
         
         <div id="fullpage">
@@ -186,13 +192,6 @@
 <!--            // SECTION TWO AFTER CLICK //-->
 
                     <div id="secondSectionLeft" class="sectionAfterClick">
-<!--
-                        <div class="col-md-7" id="leftcolAfterClick">
-                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">   
-                        </div>
-                        <div class="col-md-5" id="rightcolAfterClick">
-                        </div>
--->
                          <section class="full">
                                 <div id="one" class="sslide"></div>
                                 <div id="two" class="sslide"></div>
@@ -200,15 +199,22 @@
                     </div>
                 
                     <div id="secondSectionRight" class="sectionAfterClick">
-<!--
-                        <div class="col-md-7" id="leftcolAfterClick">
-                            <img src="output_DE4XHW.gif" id="bulletsAfterClick">   
-                        </div>
-                        <div class="col-md-5" id="rightcolAfterClick">
-                        </div>
--->
                          <section class="full">
-                                <div id="three" class="sslide"></div>
+                                <div id="three" class="sslide">
+                                    <div class="col-xs-12 col-md-4" id="sparetimeColMoreOne">
+                                        <img id="tizzyMovie" src="GFX/TizzyMovie.jpg">
+                                    </div>
+                                    <div class="col-xs-12 col-md-4" id="sparetimeColMoreTwo">
+                                        <div class="textContainer">
+                                            <h1 id="curiousity">curiousity</h1>
+                                            <p>We came up with one day shop idea where there is new product                                             ever 24 hours for special price. To intesify unique experience we're organizing photo sessions to present all clothes in new way. All tohether with teenager identity and mobile web which looks and feels like an app</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-4" id="sparetimeColMoreThree">
+                                        <img id="tizzyImage1" src="GFX/TizzyImage1.jpg">
+
+                                    </div>
+                                </div>
                                 <div id="four" class="sslide"></div>
                         </section>       
                     </div>
@@ -243,7 +249,6 @@
 <!--            // SECTION THREE BEFORE CLICK //-->
                 
                 <div class="col-xs-12 col-md-6" id="doCol">
-                    <img src="output_DE4XHW.gif" id="bullets">
                     <img src="LogoDo.png" id="doLogo">
 
                 </div>
@@ -269,7 +274,6 @@
 <!--            // SECTION FOUR BEFORE CLICK //-->
                 
                 <div class="col-xs-12 col-md-6" id="lookCol">
-                    <img src="output_DE4XHW.gif" id="bullets">
                     <img src="LogoLOOK.png" id="lookLogo">
 
                 </div>
@@ -297,7 +301,6 @@
 
                 
                 <div class="col-xs-12 col-md-6" id="inCol">
-                    <img src="output_DE4XHW.gif" id="bullets">
                     <img src="logoIN.png" id="inLogo">
 
                 </div>
