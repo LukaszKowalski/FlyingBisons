@@ -391,7 +391,7 @@ h1{
     height: 100vh;
 }
 #four {
-    background-color: green;  
+    background-color: white;  
     height: 100vh;
 }
 #sparetimeColMoreOne{
@@ -418,6 +418,21 @@ h1{
     font-size: 24px;
     font-family: "gotham-light";
 }
+#tizzyColMoreOneTextcontainer{
+    position: absolute;
+    top: 50%;
+    margin-left: 200px
+}
+
+#tizzyColMoreOneTextcontainer h1{
+    text-align: right;
+    font-size: 75px;   
+}
+
+#tizzyColMoreOneTextcontainer p{
+    text-align: right;
+    font-size: 24px;   
+}
 
 #sparetimeColMoreThree{
     height: 100vh;
@@ -431,6 +446,12 @@ h1{
 }
 
 #tizzyImage1{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#tizzyGif{
     position: absolute;
     bottom: 0px;
     right: 0px;
