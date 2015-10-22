@@ -133,12 +133,7 @@
       if (style === 'featuredScroll') {
         for (i = singleSlide.length - 1; i >= 0; i -= 1) {
           if (is_mobile()) {
-            if ($(singleSlide[i]).height() > windowHeight) {
-              $(singleSlide[i]).css('height', $(singleSlide[i]).height());
-            } else {
-              $(singleSlide[i]).css('height', windowHeight);
-              $(singleSlide[i]).outerHeight(windowHeight);
-            }
+            
           } else {
             $(singleSlide[i]).css('height', windowHeight);
             $(singleSlide[i]).outerHeight(windowHeight);
