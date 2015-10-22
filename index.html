@@ -14,16 +14,12 @@
         <script type="text/javascript" src="jquery.fullPage.js"></script>
          <script type="text/javascript" src="jquery.alton.js"></script>
         <script src="http://ricostacruz.com/jquery.transit/jquery.transit.js?v=14845"></script>
-        <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
-        <script type="text/javascript" src="jquery.pagepiling.js"></script>
-        <script type="text/javascript" src="jquery.slimscroll.min.js"></script>
-
+        
+        
         
           <script type="text/javascript">
               
 		$(document).ready(function() {
-            
-        
             
           $(document).alton({
                 fullSlideContainer: 'full', // Tell Alton the full height container
@@ -59,7 +55,6 @@
                     }
                 }
 			});
-            $('#pagepiling').pagepiling();
             $('#secondMenu').addClass('displayNone')
 		});
 
@@ -84,6 +79,9 @@
                 $.fn.fullpage.destroy();
                 $('#secondSectionRight').addClass('secondLayer');
                 $('#sectionOne').addClass('displayNone');
+                $('#sectionThree').addClass('displayNone');
+                $('#sectionFour').addClass('displayNone');
+                $('#sectionFive').addClass('displayNone');
                 $('#firstMenu').addClass('displayNone');
                 $('#secondMenu').removeClass('displayNone');
                 window.scrollTo(0, 0);
@@ -93,8 +91,11 @@
               
               
           $(function() {
-             $('#firstMenu').on('click', function(){
+             $('#secondMenu').on('click', function(){
                 $('#sectionOne').removeClass('displayNone');
+                $('#sectionThree').removeClass('displayNone');
+                $('#sectionFour').removeClass('displayNone');
+                $('#sectionFive').removeClass('displayNone');
                 createFullpage();
                 $('#secondSectionLeft').removeClass('secondLayer'); 
                 $('#secondSectionRight').removeClass('secondLayer'); 
@@ -170,7 +171,9 @@
                             </ul>
                         </nav>
                 </div>
-        </div>
+
+			</nav>
+</div>
 
                         <div id="secondMenu" class="nav">
                             <img id="secondMenuLogo" src="LogoColorSmall.png">
@@ -202,8 +205,8 @@
                     </div>
                 
                     <div id="secondSectionRight" class="sectionAfterClick">
-                         <div id="pagepiling">
-                                <div id="three" class="section">
+                         <section class="full">
+                                <div id="three" class="sslide">
                                     
                                     <div class="col-xs-12 col-md-6" id="sparetimeColMoreOne">
                                         <div id="tizzyColMoreOneTextcontainer" class="tizzyColMoreOneTextcontainer">
@@ -216,7 +219,7 @@
                                         
                                     </div>
                                 </div>
-                                <div id="four" class="section">
+                                <div id="four" class="sslide">
                                     <div class="col-xs-12 col-md-4" id="sparetimeColMoreOne">
                                         <img id="tizzyMovie" src="GFX/TizzyMovie.jpg">
                                     </div>
@@ -232,7 +235,7 @@
                                     </div>
                              
                                 </div>
-                        </div>       
+                        </section>       
                     </div>
                 
 <!--            // SECTION TWO BEFORE CLICK //-->
