@@ -395,6 +395,10 @@ h1{
     background-color: white;  
     height: 100vh;
 }
+#sparetimeColMore{
+    height: 100vh;
+}
+
 #sparetimeColMoreOne{
     height: 100vh;
 }
@@ -420,6 +424,21 @@ h1{
     font-size: 24px;
     font-family: "gotham-light";
 }
+#tizzyGifMobile{
+    display: none;
+}
+
+#tizzyMovieMobile{
+    display: none;
+}
+
+#textContainerTizzyMobile{
+    display: none;
+}
+#tizzyImage1Mobile{
+    display: none;
+} 
+
 #tizzyColMoreOneTextcontainer{
     position: relative;
     top: 50%;
@@ -849,6 +868,35 @@ IPHONE 6+
 /*
     // TIZZY COLUMN //
 */
+    #sparetimeColMoreTwo{
+        display: none;
+    }
+    #tizzyMovie{
+        display: none !important;
+    }
+    
+    #tizzyGifMobile{
+        display: block;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        height: auto;
+        width: 100%;
+    }
+    #textContainerTizzyMobile{
+        position: relative;
+        top: 25%;
+        transform: translateY(-50%);
+        padding: 25px;
+        margin-left: 0% !important;
+    }
+    
+    #sparetimeColMoreTwo{
+        display: none;
+    }
+    #sparetimeColMoreThree{
+        display: none;
+    }
     .textContainer{
         position: relative;
         top: 50%;
@@ -868,42 +916,50 @@ IPHONE 6+
     }
     #tizzyColMoreOneTextcontainer{
         position: relative;
-        top: 50%;
+        top: 25%;
         transform: translateY(-50%);
-        margin-left: 30%;
+        padding: 25px;
+        margin-left: 0% !important;
     }
 
     #tizzyColMoreOneTextcontainer h1{
-        text-align: right;
-        font-size: 75px;   
+        text-align: center;
+        font-size: 34px;   
     }
 
     #tizzyColMoreOneTextcontainer p{
-        text-align: right;
-        font-size: 24px;   
+        text-align: center;
+        font-size: 14px;   
     }
 
     #sparetimeColMoreThree{
         height: 100vh;
     }
+    
 
-    #tizzyMovie{
-        position: absolute;
-        top: 50%;
-        margin-top: -339px;
-        left: 20%;
+    #tizzyMovieMobile{
+        display: block;
+        position: relative;
+        left: 50%
+        transform: translateX(-50%);
+        height: 40%;
+        width:auto;
     }
 
-    #tizzyImage1{
+    #tizzyImage1Mobile{
+        display: block;
         position: absolute;
         bottom: 0px;
         right: 0px;
+        width: 60%;
+        height: auto;
     }
 
     #tizzyGif{
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
+        position: relative;
+        bottom: 10%;
+        right: 50%;
+        transform: translateX(-50%)
     }
 
     
