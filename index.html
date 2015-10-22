@@ -66,6 +66,19 @@
             
         
         });
+          $(function() {
+            $("#tizzyCol").mouseenter(function(){
+              $("#tizzyHand").stop(true, false).animate({ "opacity": .5 }, 300); }); });
+          $(function() {
+            $("#tizzyCol").mouseleave(function(){
+               $("#tizzyHand").stop(true, false).animate({ "opacity": 0 }, 300); });  });
+              
+          $(function() {
+            $("#inCol").mouseenter(function(){
+              $("#inHand").stop(true, false).animate({ "opacity": .5 }, 300); }); });
+          $(function() {
+            $("#inCol").mouseleave(function(){
+               $("#inHand").stop(true, false).animate({ "opacity": 0 }, 300); });  });
 
           $(function() {
             $("#bulletsCol").mouseenter(function(){
@@ -280,10 +293,13 @@
                 
                 <div class="col-xs-12 col-md-6" id="inCol">
                     <img src="LOGO/logoIN.png" id="inLogo">
+                    <img src="GIF-IN.gif" id="inHand">
+
 
                 </div>
                 <div class="col-xs-12 col-md-6" id="tizzyCol">
                     <img src="LOGO/LogoTizzy.png" id="tizzyLogo">
+                    <img src="tizzyHand.png" id="tizzyHand">
                 </div>
             </div>
             

@@ -213,6 +213,7 @@ h1{
     margin-left: -200px;
     left: 50%;
     top: 50%;
+    z-index: 10;
 }
 
 #sparetimeLogo{
@@ -222,6 +223,7 @@ h1{
     margin-left: -200px;
     left: 50%;
     top: 50%;
+    z-index: 10;
 }
 
 #owllerLogo{
@@ -231,6 +233,7 @@ h1{
     margin-left: -234px;
     left: 50%;
     top: 50%;
+    z-index: 10;
 }
 
 #doLogo{
@@ -240,6 +243,7 @@ h1{
     margin-left: -107px;
     left: 50%;
     top: 50%;
+    z-index: 10;
 }
 
 #tizzyLogo{
@@ -249,6 +253,7 @@ h1{
     margin-left: -172px;
     left: 50%;
     top: 50%;
+    z-index: 10;
 }
 
 #fileyLogo{
@@ -258,6 +263,7 @@ h1{
     margin-left: -199px;
     left: 50%;
     top: 50%;
+    z-index: 10;
 }
 
 #inLogo{
@@ -267,6 +273,7 @@ h1{
     margin-left: -166px;
     left: 50%;
     top: 50%;
+    z-index: 10;
 }
 
 #lookLogo{
@@ -285,6 +292,7 @@ h1{
     height: 100vh;
     padding-left: 0px;
     padding-right: 0px;
+    z-index: 10;
 }
 
 /*
@@ -301,6 +309,25 @@ h1{
    -o-transform: scale(1.1, 1.1);
    transform: scale(1.1, 1.1)      
 }
+
+#inCol:hover > #inHand{
+    transition-duration: 2.5s;
+    -webkit-transform: scale(1.1, 1.1);
+   -moz-transform: scale(1.1, 1.1);
+   -ms-transform: scale(1.1, 1.1);
+   -o-transform: scale(1.1, 1.1);
+   transform: scale(1.1, 1.1)      
+}
+
+#tizzyCol:hover > #tizzyHand{
+    transition-duration: 2.5s;
+    -webkit-transform: scale(1.1, 1.1);
+   -moz-transform: scale(1.1, 1.1);
+   -ms-transform: scale(1.1, 1.1);
+   -o-transform: scale(1.1, 1.1);
+   transform: scale(1.1, 1.1)      
+}
+
 #bullets{
     opacity: 0.0;
     position: absolute;
@@ -308,6 +335,24 @@ h1{
     bottom: 0;
     transition-duration: 2s;
 }
+
+#inHand{
+    opacity: 0.0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition-duration: 2s;
+}
+
+#tizzyHand{
+    opacity: 0.0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition-duration: 2s;
+}
+
+
 
 /*// AFTERCLICK //*/
 
@@ -831,6 +876,7 @@ IPHONE 6+
         margin-left: -86px;
         left: 50%;
         top: 50%;
+        z-index: 11;
     }
 
     #fileyLogo{
