@@ -189,7 +189,7 @@ h1{
 }
 
 #inCol {
-    background-color: #242835;
+    background-color: #000000;
     height: 100vh;
     display:block;
     padding-left: 0px;
@@ -803,7 +803,7 @@ IPHONE 6+
     }
 
     #inCol {
-        background-color: #242835;
+        background-color: #000000;
         height: 50%;
         width: 100%;
         display:block;
