@@ -8,11 +8,12 @@
         <meta name="description" content="Mobile studio">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+        <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" type="text/css" href="CSS/jquery.fullPage.css" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script type="text/javascript" src="jquery.fullPage.js"></script>
-         <script type="text/javascript" src="jquery.alton.js"></script>
+        <script type="text/javascript" src="JS/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="JS/jquery.alton.js"></script>
+        <script type="text/javascript" src="JS/jquery.slimscroll.min.js"></script>
         <script src="http://ricostacruz.com/jquery.transit/jquery.transit.js?v=14845"></script>
         
         
@@ -56,7 +57,15 @@
                 }
 			});
             $('#secondMenu').addClass('displayNone')
-		});
+	       
+            if (is_mobile()) { 
+                    $('#bisonLogo').attr('src',"B.png");   
+                } else {
+                    $('#bisonLogo').attr('src',"LogoWhiteSmall.png");
+                }
+            
+        
+        });
 
           $(function() {
             $("#bulletsCol").mouseenter(function(){
@@ -77,6 +86,14 @@
           $(function() {
                $('#tizzyCol').on('click', function(){
                 $.fn.fullpage.destroy();
+                $('#secondMenuProjectLogo').attr('src',"LOGO/MENULogoTizzy.png");   
+                   
+                if (is_mobile()) { 
+                    $('#secondMenuLogo').attr('src',"Bcolor.png");   
+                } else {
+                    $('#secondMenuLogo').attr('src',"LogoColorSmall.png");
+                }
+                   
                 $('#secondSectionRight').addClass('secondLayer');
                 $('#sectionOne').addClass('displayNone');
                 $('#sectionThree').addClass('displayNone');
@@ -92,6 +109,15 @@
               
           $(function() {
              $('#secondMenu').on('click', function(){
+                 
+                if (is_mobile()) { 
+                    $('#secondMenuLogo').attr('src',"B.png");   
+                } else {
+                    $('#secondMenuLogo').attr('src',"LogoWhiteSmall.png");
+                }
+                 
+                $('#secondMenu').addClass('displayNone');
+                $('#firstMenu').removeClass('displayNone');
                 $('#sectionOne').removeClass('displayNone');
                 $('#sectionThree').removeClass('displayNone');
                 $('#sectionFour').removeClass('displayNone');
@@ -131,7 +157,10 @@
 			});
             $.fn.fullpage.silentMoveTo('secondPage');
         }
-              
+        
+        function is_mobile() {
+            return navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|BB10|Windows Phone|Tizen|Bada)/);
+        }      
 
         
         </script>
@@ -150,7 +179,8 @@
                 <div class="hamburger">
             </div>
                 <input type="checkbox" id="op"></input>
-                <div class="menu">
+                
+        <div class="menu">
                     <label for="op">            
                       <img src="hamburger.png" id="hamburgerIcon">
                     </label>
@@ -176,8 +206,8 @@
 </div>
 
                         <div id="secondMenu" class="nav">
-                            <img id="secondMenuLogo" src="LogoColorSmall.png">
-                            <img id="secondMenuProjectLogo" src="GFX/TizzyLogo.png">
+                            <img id="secondMenuLogo">
+                            <img id="secondMenuProjectLogo">
                         </div>
         </div>
         
@@ -241,11 +271,11 @@
 <!--            // SECTION TWO BEFORE CLICK //-->
                 
                 <div class="col-xs-12 col-md-6" id="inCol">
-                    <img src="logoIN.png" id="inLogo">
+                    <img src="LOGO/logoIN.png" id="inLogo">
 
                 </div>
                 <div class="col-xs-12 col-md-6" id="tizzyCol">
-                    <img src="LogoTizzy.png" id="tizzyLogo">
+                    <img src="LOGO/LogoTizzy.png" id="tizzyLogo">
                 </div>
             </div>
             
@@ -268,11 +298,11 @@
                 <div class="col-xs-12 col-md-6" id="bulletsCol">
                     
                     <img src="output_DE4XHW.gif" id="bullets">
-                    <img src="bulletsLogo.png" id="bulletsLogo">
+                    <img src="LOGO/bulletsLogo.png" id="bulletsLogo">
 
                 </div>
                 <div class="col-xs-12 col-md-6" id="sparetimeCol">
-                    <img src="sparetime.png" id="sparetimeLogo">
+                    <img src="LOGO/sparetime.png" id="sparetimeLogo">
                 </div>
                 
             </div>
@@ -294,11 +324,11 @@
 <!--            // SECTION FOUR BEFORE CLICK //-->
                                 
                 <div class="col-xs-12 col-md-6" id="doCol">
-                    <img src="LogoDo.png" id="doLogo">
+                    <img src="LOGO/LogoDo.png" id="doLogo">
 
                 </div>
                 <div class="col-xs-12 col-md-6" id="owllerCol">
-                    <img src="LogoOwller.png" id="owllerLogo">
+                    <img src="LOGO/LogoOwller.png" id="owllerLogo">
                 </div>
                 
                 
@@ -321,11 +351,11 @@
                 
 <!--            // SECTION FIVE BEFORE CLICK //-->
                 <div class="col-xs-12 col-md-6" id="lookCol">
-                    <img src="LogoLOOK.png" id="lookLogo">
+                    <img src="LOGO/LogoLOOK.png" id="lookLogo">
 
                 </div>
                 <div class="col-xs-12 col-md-6" id="fileyCol">
-                    <img src="LogoFiley.png" id="fileyLogo">
+                    <img src="LOGO/LogoFiley.png" id="fileyLogo">
                 </div>
                 
                 

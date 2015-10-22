@@ -50,15 +50,15 @@ table {
 
 @font-face { 
 	font-family: "gotham-bold"; 
-	src: url('GOTHAM-BOLD.ttf'); 
+	src: url('/FONT/GOTHAM-BOLD.ttf'); 
 }
 @font-face { 
 	font-family: "gotham-book"; 
-	src: url('GOTHAM-BOOK.ttf'); 
+	src: url('/FONT/GOTHAM-BOOK.ttf'); 
 }
 @font-face { 
 	font-family: "gotham-light"; 
-	src: url('GOTHAM-LIGHT.otf'); 
+	src: url('/FONT/GOTHAM-LIGHT.otf'); 
 }
  
 
@@ -373,7 +373,6 @@ h1{
     z-index: 9999;
     float: right;
     width: 100%;
-    height: 100px;
 }
 #secondMenuLogo{
     position: absolute;    
@@ -384,6 +383,8 @@ h1{
     position: absolute;
     top: 25px;
     right: 45px;
+    height: 45px;
+    width: auto;
 }
 
 #three {
@@ -485,8 +486,8 @@ p {
 }
 #bisonLogo{
     position: fixed;
-    height: 60.5px;
-    width: 73px;
+    height: 45px;
+    width: auto;
     top: 25px;
     left: 45px;
     visibility: hidden;
@@ -551,7 +552,7 @@ input{
 	position: absolute;
 	right: 10px;
 	top: 5px;
-	background: url('close.png');
+	background: url('/GFX/close.png');
 	z-index: 100;
     cursor:pointer;
 }
@@ -667,6 +668,21 @@ IPHONE 6+
     
    #desktopNav{
         display: none !important;
+    }
+    
+    #secondMenuLogo{
+        position: absolute;    
+        height: 34px; !important;
+        top: 15px; !important;
+        left: 15px; !important;
+        width: auto;
+    }
+    #secondMenuProjectLogo{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        height: 45px;
+        width: auto;
     }
     
     #bulletsCol {
@@ -830,6 +846,67 @@ IPHONE 6+
         left: 50%;
         top: 50%;
     }
+/*
+    // TIZZY COLUMN //
+*/
+    .textContainer{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .textContainer h1{
+        text-align: left;
+        font-size: 75px;
+    }
+
+
+    .textContainer p{
+        text-align: left;
+        font-size: 24px;
+        font-family: "gotham-light";
+    }
+    #tizzyColMoreOneTextcontainer{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 30%;
+    }
+
+    #tizzyColMoreOneTextcontainer h1{
+        text-align: right;
+        font-size: 75px;   
+    }
+
+    #tizzyColMoreOneTextcontainer p{
+        text-align: right;
+        font-size: 24px;   
+    }
+
+    #sparetimeColMoreThree{
+        height: 100vh;
+    }
+
+    #tizzyMovie{
+        position: absolute;
+        top: 50%;
+        margin-top: -339px;
+        left: 20%;
+    }
+
+    #tizzyImage1{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    #tizzyGif{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    
     
 /*    // HAND ANIMATION //*/
 
@@ -889,23 +966,11 @@ IPHONE 6+
     }
 
     #one {
-       background-image: url('Bisons-Tizzy1.jpg');
-        background-size: cover;
     }
 
     #two {
-       background-image: url('Bisons-Tizzy2.jpg');
-        background-size: cover;    
 
     }
-    #three {
-       background-color: red;
-    }
-    #four {
-       background-color: green;  
-    }
-
-    
     
 }
 
@@ -929,6 +994,20 @@ IPHONE 6+
     
     #desktopNav{
         display: none !important;
+    }
+    #secondMenuLogo{
+        position: absolute;    
+        height: 34px; !important;
+        top: 15px; !important;
+        left: 15px; !important;
+        width: auto;
+    }
+    #secondMenuProjectLogo{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        height: 45px;
+        width: auto;
     }
     
     #bisonLogo{
@@ -1137,7 +1216,20 @@ IPHONE 6+
     #desktopNav{
         display: none !important;
     }
-    
+    #secondMenuLogo{
+        position: absolute;    
+        height: 34px; !important;
+        top: 15px; !important;
+        left: 15px; !important;
+        width: auto;
+    }
+    #secondMenuProjectLogo{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        height: 45px;
+        width: auto;
+    }
     #bulletsCol {
         background-color: #1b2339 ;
         height: 50%;
@@ -1339,7 +1431,20 @@ IPHONE 6+
     .menu{
         display: block;
     }
-    
+    #secondMenuLogo{
+        position: absolute;    
+        height: 34px; !important;
+        top: 15px; !important;
+        left: 15px; !important;
+        width: auto;
+    }
+    #secondMenuProjectLogo{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        height: 45px;
+        width: auto;
+    }
     #desktopNav{
         display: none !important;
     }
