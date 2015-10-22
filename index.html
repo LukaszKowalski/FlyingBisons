@@ -14,12 +14,16 @@
         <script type="text/javascript" src="jquery.fullPage.js"></script>
          <script type="text/javascript" src="jquery.alton.js"></script>
         <script src="http://ricostacruz.com/jquery.transit/jquery.transit.js?v=14845"></script>
+        <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
+        <script type="text/javascript" src="jquery.pagepiling.js"></script>
+        <script type="text/javascript" src="jquery.slimscroll.min.js"></script>
 
-        
         
           <script type="text/javascript">
               
 		$(document).ready(function() {
+            
+        
             
           $(document).alton({
                 fullSlideContainer: 'full', // Tell Alton the full height container
@@ -55,6 +59,7 @@
                     }
                 }
 			});
+            $('#pagepiling').pagepiling();
             $('#secondMenu').addClass('displayNone')
 		});
 
@@ -197,8 +202,8 @@
                     </div>
                 
                     <div id="secondSectionRight" class="sectionAfterClick">
-                         <section class="full">
-                                <div id="three" class="sslide">
+                         <div id="pagepiling">
+                                <div id="three" class="section">
                                     
                                     <div class="col-xs-12 col-md-6" id="sparetimeColMoreOne">
                                         <div id="tizzyColMoreOneTextcontainer" class="tizzyColMoreOneTextcontainer">
@@ -211,7 +216,7 @@
                                         
                                     </div>
                                 </div>
-                                <div id="four" class="sslide">
+                                <div id="four" class="section">
                                     <div class="col-xs-12 col-md-4" id="sparetimeColMoreOne">
                                         <img id="tizzyMovie" src="GFX/TizzyMovie.jpg">
                                     </div>
@@ -227,7 +232,7 @@
                                     </div>
                              
                                 </div>
-                        </section>       
+                        </div>       
                     </div>
                 
 <!--            // SECTION TWO BEFORE CLICK //-->
