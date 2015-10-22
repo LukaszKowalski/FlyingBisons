@@ -403,8 +403,9 @@ h1{
 }
 
 .textContainer{
-    position: absolute;
+    position: relative;
     top: 50%;
+    transform: translateY(-50%);
 }
 
 .textContainer h1{
@@ -419,9 +420,10 @@ h1{
     font-family: "gotham-light";
 }
 #tizzyColMoreOneTextcontainer{
-    position: absolute;
+    position: relative;
     top: 50%;
-    margin-left: 200px
+    transform: translateY(-50%);
+    margin-left: 30%;
 }
 
 #tizzyColMoreOneTextcontainer h1{
