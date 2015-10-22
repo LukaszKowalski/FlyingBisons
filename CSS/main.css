@@ -50,15 +50,15 @@ table {
 
 @font-face { 
 	font-family: "gotham-bold"; 
-	src: url('/FONT/GOTHAM-BOLD.ttf'); 
+	src: url('/FONT/GOTHAM-BOLD.TTF'); 
 }
 @font-face { 
 	font-family: "gotham-book"; 
-	src: url('/FONT/GOTHAM-BOOK.ttf'); 
+	src: url('/FONT/GOTHAM-BOOK.TTF'); 
 }
 @font-face { 
 	font-family: "gotham-light"; 
-	src: url('/FONT/GOTHAM-LIGHT.otf'); 
+	src: url('/FONT/GOTHAM-LIGHT.OTF'); 
 }
  
 
@@ -432,7 +432,7 @@ h1{
     display: none;
 }
 
-#textContainerTizzyMobile{
+.textContainerTizzyMobile{
     display: none;
 }
 #tizzyImage1Mobile{
@@ -883,12 +883,13 @@ IPHONE 6+
         height: auto;
         width: 100%;
     }
-    #textContainerTizzyMobile{
+    .textContainerTizzyMobile{
+        display: block !important;
         position: relative;
-        top: 25%;
+        top: 33%;
         transform: translateY(-50%);
-        padding: 25px;
         margin-left: 0% !important;
+        z-index: 1;
     }
     
     #sparetimeColMoreTwo{
@@ -918,7 +919,6 @@ IPHONE 6+
         position: relative;
         top: 25%;
         transform: translateY(-50%);
-        padding: 25px;
         margin-left: 0% !important;
     }
 
@@ -940,10 +940,11 @@ IPHONE 6+
     #tizzyMovieMobile{
         display: block;
         position: relative;
-        left: 50%
-        transform: translateX(-50%);
-        height: 40%;
-        width:auto;
+        left: 20%;
+        height: 54%;
+        width: auto;
+        z-index: 1;
+        bottom: -16%;
     }
 
     #tizzyImage1Mobile{
