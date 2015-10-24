@@ -703,341 +703,254 @@ input{
 
 
 /* Media Queries */
-/*
 
-IPHONE 6+
-*/
-
-@media (max-width: 414px) {
-    #logoBig {
-        position: absolute;
-        height: 93px;
-        width: 350px;
-        left: 50%;
-        top: 50%;
-        margin-left: -175px;
-        margin-top: -90px;
-    }
-    #bisonLogo{
-        height: 34px; !important;
-        width: 41.02px; 
-        top: 15px; !important;
-        left: 15px; !important;
-        z-index: 1000;
-        visibility: visible !important;
-    }
-    .menu{
-        display: block;
-    }
+/* Desktop 1440 */
+@media (max-width: 1440px){
     
-   #desktopNav{
-        display: none !important;
-    }
+ /*    // TIZZY COLUMN //   */
     
-    #secondMenuLogo{
-        position: absolute;    
-        height: 34px; !important;
-        top: 15px; !important;
-        left: 15px; !important;
-        width: auto;
-    }
-    #secondMenuProjectLogo{
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        height: 45px;
-        width: auto;
-    }
-    
-    #bulletsCol {
-        background-color: #1b2339 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    
-    #sparetimeCol {
-        height: 50%;
-        width: 100%;
-        background-color: #d9289e;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+ #sparetimeColMore{
+    height: 100vh;
+}
 
-    #owllerCol {
-        background-color: #ffd30f ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+#sparetimeColMoreOne{
+    height: 100vh;
+}
 
-    #doCol {
-        background-color: #1f2e73 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+#sparetimeColMoreTwo{
+    height: 100vh;
+}
 
-    #tizzyCol {
-        background-color: #ff0028 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+.textContainer{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
 
-    #fileyCol {
-        background-color: #1f8bce ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+.textContainer h1{
+    text-align: left;
+    font-size: 75px;
+}
 
-    #inCol {
-        background-color: #000000;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
 
-    #lookCol {
-        background-color: #c61616 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    
-    /*LOGOS*/
+.textContainer p{
+    text-align: left;
+    font-size: 24px;
+    font-family: "gotham-light";
+}
+#tizzyGifMobile{
+    display: none;
+}
 
-    #bulletsLogo{
-        margin: 0;
-        position: absolute;
-        height: 38px;
-        width: 200px;
-        
-        margin-top: -19px;
-        margin-left: -100px;
-        left: 50%;
-        top: 50%;
-    }
+#tizzyMovieMobile{
+    display: none;
+}
 
-    #sparetimeLogo{
-        margin: 0;
-        position: absolute;
-        height: 55px;
-        width: 200px;
-        margin-top: -27px;
-        margin-left: -100px;
-        left: 50%;
-        top: 50%;
-    }
+.textContainerTizzyMobile{
+    display: none;
+}
+#tizzyImage1Mobile{
+    display: none;
+} 
 
-    #owllerLogo{
-        margin: 0;
-        position: absolute;
-        height: 77px;
-        width: 234px;
-        margin-top: -38px;
-        margin-left: -117px;
-        left: 50%;
-        top: 50%;
-    }
+#tizzyColMoreOneTextcontainer{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 30%;
+}
 
-    #doLogo{
-        margin: 0;
-        position: absolute;
-        height: 65px;
-        width: 107px;
-        margin-top: -33px;
-        margin-left: -54px;
-        left: 50%;
-        top: 50%;
-    }
+#tizzyColMoreOneTextcontainer h1{
+    text-align: right;
+    font-size: 75px;   
+}
 
-    #tizzyLogo{
-        margin: 0;
-        position: absolute;
-        height: 70px;
-        width: 172px;
-        margin-top: -35px;
-        margin-left: -86px;
-        left: 50%;
-        top: 50%;
-        z-index: 11;
-    }
+#tizzyColMoreOneTextcontainer p{
+    text-align: right;
+    font-size: 24px;   
+}
 
-    #fileyLogo{
-        margin: 0;
-        position: absolute;
-        height: 60px;
-        width: 199px;
-        margin-top: -30px;
-        margin-left: -99px;
-        left: 50%;
-        top: 50%;
-    }
+#sparetimeColMoreThree{
+    height: 100vh;
+}
 
-    #inLogo{
-        margin: 0;
-        position: absolute;
-        height: 108px;
-        width: 166px;
-        margin-top: -54px;
-        margin-left: -83px;
-        left: 50%;
-        top: 50%;
-    }
+#tizzyMovie{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    top: 60%;
+}
 
-    #lookLogo{
-        margin: 0;
-        position: absolute;
-        height: 56px;
-        width: 196px;
-        margin-top: -28px;
-        margin-left: -98px;
-        left: 50%;
-        top: 50%;
-    }
+#tizzyImage1{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    bottom: 0px;
+    right: 0px;
+}
+
+#tizzyGif{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+}
+
+   
+
+@media (max-width: 1366px){
+   
 /*
     // TIZZY COLUMN //
-*/
-    #sparetimeColMoreTwo{
-        display: none;
-    }
-    #tizzyMovie{
-        display: none !important;
-    }
-    
-    #tizzyGifMobile{
-        display: block;
-        position: absolute;
-        right: 0px;
-        bottom: 0px;
-        height: auto;
-        width: 100%;
-    }
-    .textContainerTizzyMobile{
-        display: block !important;
-        position: relative;
-        top: 33%;
-        transform: translateY(-50%);
-        margin-left: 0% !important;
-        z-index: 1;
-    }
-    
-    #sparetimeColMoreTwo{
-        display: none;
-    }
-    #sparetimeColMoreThree{
-        display: none;
-    }
-    .textContainer{
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+ #sparetimeColMore{
+    height: 100vh;
+}
 
-    .textContainer h1{
-        text-align: left;
-        font-size: 75px;
-    }
+#sparetimeColMoreOne{
+    height: 100vh;
+}
+
+#sparetimeColMoreTwo{
+    height: 100vh;
+}
+
+.textContainer{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.textContainer h1{
+    text-align: left;
+    font-size: 75px;
+}
 
 
-    .textContainer p{
-        text-align: left;
-        font-size: 24px;
-        font-family: "gotham-light";
-    }
-    #tizzyColMoreOneTextcontainer{
-        position: relative;
-        top: 25%;
-        transform: translateY(-50%);
-        margin-left: 0% !important;
-    }
+.textContainer p{
+    text-align: left;
+    font-size: 24px;
+    font-family: "gotham-light";
+}
+#tizzyGifMobile{
+    display: none;
+}
 
-    #tizzyColMoreOneTextcontainer h1{
-        text-align: center;
-        font-size: 34px;   
-    }
+#tizzyMovieMobile{
+    display: none;
+}
 
-    #tizzyColMoreOneTextcontainer p{
-        text-align: center;
-        font-size: 14px;   
-    }
+.textContainerTizzyMobile{
+    display: none;
+}
+#tizzyImage1Mobile{
+    display: none;
+} 
 
-    #sparetimeColMoreThree{
-        height: 100vh;
-    }
-    
+#tizzyColMoreOneTextcontainer{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 30%;
+}
 
-    #tizzyMovieMobile{
-        display: block;
-        position: relative;
-        left: 20%;
-        height: 54%;
-        width: auto;
-        z-index: 1;
-        bottom: -16%;
-    }
+#tizzyColMoreOneTextcontainer h1{
+    text-align: right;
+    font-size: 75px;   
+}
 
-    #tizzyImage1Mobile{
-        display: block;
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        width: 60%;
-        height: auto;
-    }
+#tizzyColMoreOneTextcontainer p{
+    text-align: right;
+    font-size: 24px;   
+}
 
-    #tizzyGif{
-        position: relative;
-        bottom: 10%;
-        right: 50%;
-        transform: translateX(-50%)
-    }
+#sparetimeColMoreThree{
+    height: 100vh;
+}
+
+#tizzyMovie{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    top: 60%;
+}
+
+#tizzyImage1{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    bottom: 0px;
+    right: 0px;
+}
+
+#tizzyGif{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+}
 
     
     
 /*    // HAND ANIMATION //*/
 
-    #bulletsCol:hover > #bullets{
-        transform: none;
-        transition: none;
-    }
-    #bullets{
-        display: none;
-    }
-    
-    #inCol:hover > #inHand{
-        transform: none;
-        transition: none;
-    }
+ #bulletsCol:hover > #bullets{
+    transition-duration: 2.5s;
+    -webkit-transform: scale(1.1, 1.1);
+   -moz-transform: scale(1.1, 1.1);
+   -ms-transform: scale(1.1, 1.1);
+   -o-transform: scale(1.1, 1.1);
+   transform: scale(1.1, 1.1)      
+}
 
-    #inHand{
-        display: none;
-    }
+#inCol:hover > #inHand{
+    transition-duration: 2.5s;
+    -webkit-transform: scale(1.1, 1.1);
+   -moz-transform: scale(1.1, 1.1);
+   -ms-transform: scale(1.1, 1.1);
+   -o-transform: scale(1.1, 1.1);
+   transform: scale(1.1, 1.1)      
+}
 
-    #tizzyCol:hover > #tizzyHand{
-        transform: none;
-        transition: none;
-    }
+#tizzyCol:hover > #tizzyHand{
+    transition-duration: 2.5s;
+    -webkit-transform: scale(1.1, 1.1);
+   -moz-transform: scale(1.1, 1.1);
+   -ms-transform: scale(1.1, 1.1);
+   -o-transform: scale(1.1, 1.1);
+   transform: scale(1.1, 1.1)      
+}
 
-    #tizzyHand{
-        display: none;
-    }
+#bullets{
+    opacity: 0.0;
+    position: absolute;
+    height: 80%;
+    width:auto;
+    left: 0;
+    bottom: 0;
+    transition-duration: 2s;
+}
+
+#inHand{
+    opacity: 0.0;
+    position: absolute;
+    height: 80%;
+    width:auto;
+    left: 0;
+    bottom: 0;
+    transition-duration: 2s;
+}
+
+#tizzyHand{
+    opacity: 0.0;
+    position: absolute;
+    height: 80%;
+    width:auto;
+    right: 0;
+    bottom: 0;
+    transition-duration: 2s;
+}
 
 /*// AFTERCLICK //*/
 
@@ -1095,699 +1008,10 @@ IPHONE 6+
     
 }
 
-/*IPHONE  6*/
 
-@media (max-width: 375px) {
-    #logoBig {
-        position: absolute;
-        height: 74px;
-        width: 280px;
-        left: 50%;
-        top: 50%;
-        margin-left: -140px;
-        margin-top: -74px;
-    }
 
-/*    NAVIGATION*/
-    .menu{
-        display: block;
-    }
-    
-    #desktopNav{
-        display: none !important;
-    }
-    #secondMenuLogo{
-        position: absolute;    
-        height: 34px; !important;
-        top: 15px; !important;
-        left: 15px; !important;
-        width: auto;
-    }
-    #secondMenuProjectLogo{
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        height: 45px;
-        width: auto;
-    }
-    
-    #bisonLogo{
-        height: 34px; !important;
-        width: 41.02px; 
-        top: 15px; !important;
-        left: 15px; !important;
-        z-index: 1000;
-        visibility: visible !important;
-    }
-        
-    #bulletsCol {
-        background-color: #1b2339 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    
-    #sparetimeCol {
-        height: 50%;
-        width: 100%;
-        background-color: #d9289e;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
 
-    #owllerCol {
-        background-color: #ffd30f ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
 
-    #doCol {
-        background-color: #1f2e73 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+ 
 
-    #tizzyCol {
-        background-color: #ff0028 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #fileyCol {
-        background-color: #1f8bce ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #inCol {
-        background-color: #242835;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #lookCol {
-        background-color: #c61616 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    /*LOGOS*/
-
-    #bulletsLogo{
-        margin: 0;
-        position: absolute;
-        height: 38px;
-        width: 200px;
-        
-        margin-top: -19px;
-        margin-left: -100px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #sparetimeLogo{
-        margin: 0;
-        position: absolute;
-        height: 55px;
-        width: 200px;
-        margin-top: -27px;
-        margin-left: -100px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #owllerLogo{
-        margin: 0;
-        position: absolute;
-        height: 77px;
-        width: 234px;
-        margin-top: -38px;
-        margin-left: -117px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #doLogo{
-        margin: 0;
-        position: absolute;
-        height: 65px;
-        width: 107px;
-        margin-top: -33px;
-        margin-left: -54px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #tizzyLogo{
-        margin: 0;
-        position: absolute;
-        height: 70px;
-        width: 172px;
-        margin-top: -35px;
-        margin-left: -86px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #fileyLogo{
-        margin: 0;
-        position: absolute;
-        height: 60px;
-        width: 199px;
-        margin-top: -30px;
-        margin-left: -99px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #inLogo{
-        margin: 0;
-        position: absolute;
-        height: 108px;
-        width: 166px;
-        margin-top: -54px;
-        margin-left: -83px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #lookLogo{
-        margin: 0;
-        position: absolute;
-        height: 56px;
-        width: 196px;
-        margin-top: -28px;
-        margin-left: -98px;
-        left: 50%;
-        top: 50%;
-    }
-    
-/*    // HAND ANIMATION //*/
-
-    #bulletsCol:hover > #bullets{
-        transform: none;
-        transition: none;
-    }
-    #bullets{
-        display: none;
-    }
-    
-    #inCol:hover > #inHand{
-        transform: none;
-        transition: none;
-    }
-
-    #inHand{
-        display: none;
-    }
-
-    #tizzyCol:hover > #tizzyHand{
-        transform: none;
-        transition: none;
-    }
-
-    #tizzyHand{
-        display: none;
-    }
-    
-}
-
-@media (max-width: 360px) {
-    #logoBig {
-        position: absolute;
-        height: 74px;
-        width: 280px;
-        left: 50%;
-        top: 50%;
-        margin-left: -140px;
-        margin-top: -74px;
-    }
-     #bisonLogo{
-        height: 34px;
-        width: 41.02px; 
-        top: 15px;
-        left: 15px;
-        z-index: 1000;
-        visibility: visible !important;
-     }
-     
-    #desktopNav{
-        display: none !important;
-    }
-    #secondMenuLogo{
-        position: absolute;    
-        height: 34px; !important;
-        top: 15px; !important;
-        left: 15px; !important;
-        width: auto;
-    }
-    #secondMenuProjectLogo{
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        height: 45px;
-        width: auto;
-    }
-    #bulletsCol {
-        background-color: #1b2339 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    
-    #sparetimeCol {
-        height: 50%;
-        width: 100%;
-        background-color: #d9289e;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #owllerCol {
-        background-color: #ffd30f ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #doCol {
-        background-color: #1f2e73 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #tizzyCol {
-        background-color: #ff0028 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #fileyCol {
-        background-color: #1f8bce ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #inCol {
-        background-color: #242835;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #lookCol {
-        background-color: #c61616 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    
-    /*LOGOS*/
-
-    #bulletsLogo{
-        margin: 0;
-        position: absolute;
-        height: 38px;
-        width: 200px;
-        
-        margin-top: -19px;
-        margin-left: -100px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #sparetimeLogo{
-        margin: 0;
-        position: absolute;
-        height: 55px;
-        width: 200px;
-        margin-top: -27px;
-        margin-left: -100px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #owllerLogo{
-        margin: 0;
-        position: absolute;
-        height: 77px;
-        width: 234px;
-        margin-top: -38px;
-        margin-left: -117px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #doLogo{
-        margin: 0;
-        position: absolute;
-        height: 65px;
-        width: 107px;
-        margin-top: -33px;
-        margin-left: -54px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #tizzyLogo{
-        margin: 0;
-        position: absolute;
-        height: 70px;
-        width: 172px;
-        margin-top: -35px;
-        margin-left: -86px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #fileyLogo{
-        margin: 0;
-        position: absolute;
-        height: 60px;
-        width: 199px;
-        margin-top: -30px;
-        margin-left: -99px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #inLogo{
-        margin: 0;
-        position: absolute;
-        height: 108px;
-        width: 166px;
-        margin-top: -54px;
-        margin-left: -83px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #lookLogo{
-        margin: 0;
-        position: absolute;
-        height: 56px;
-        width: 196px;
-        margin-top: -28px;
-        margin-left: -98px;
-        left: 50%;
-        top: 50%;
-    }
-    
-/*    // HAND ANIMATION //*/
-
-    #bulletsCol:hover > #bullets{
-        transform: none;
-        transition: none;
-    }
-    #bullets{
-        display: none;
-    }
-    
-    #inCol:hover > #inHand{
-        transform: none;
-        transition: none;
-    }
-
-    #inHand{
-        display: none;
-    }
-
-    #tizzyCol:hover > #tizzyHand{
-        transform: none;
-        transition: none;
-    }
-
-    #tizzyHand{
-        display: none;
-    }
-}
-       
-/*IPHONE 4*/
-
-@media (max-width: 320px) {
-    #logoBig {
-        position: absolute;
-        height: 74px;
-        width: 280px;
-        left: 50%;
-        top: 50%;
-        margin-left: -140px;
-        margin-top: -74px;
-    }
-     #bisonLogo{
-        height: 34px;
-        width: 41.02px; 
-        top: 15px;
-        left: 15px;
-        z-index: 1000;
-        visibility: visible !important;
-     }
-    
-    .menu{
-        display: block;
-    }
-    #secondMenuLogo{
-        position: absolute;    
-        height: 34px; !important;
-        top: 15px; !important;
-        left: 15px; !important;
-        width: auto;
-    }
-    #secondMenuProjectLogo{
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        height: 45px;
-        width: auto;
-    }
-    #desktopNav{
-        display: none !important;
-    }
-    
-    #bulletsCol {
-        background-color: #1b2339 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    
-    #sparetimeCol {
-        height: 50%;
-        width: 100%;
-        background-color: #d9289e;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #owllerCol {
-        background-color: #ffd30f ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #doCol {
-        background-color: #1f2e73 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #tizzyCol {
-        background-color: #ff0028 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #fileyCol {
-        background-color: #1f8bce ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #inCol {
-        background-color: #242835;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #lookCol {
-        background-color: #c61616 ;
-        height: 50%;
-        width: 100%;
-        display:block;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    /*LOGOS*/
-
-    #bulletsLogo{
-        margin: 0;
-        position: absolute;
-        height: 38px;
-        width: 200px;
-        
-        margin-top: -19px;
-        margin-left: -100px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #sparetimeLogo{
-        margin: 0;
-        position: absolute;
-        height: 55px;
-        width: 200px;
-        margin-top: -27px;
-        margin-left: -100px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #owllerLogo{
-        margin: 0;
-        position: absolute;
-        height: 77px;
-        width: 234px;
-        margin-top: -38px;
-        margin-left: -117px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #doLogo{
-        margin: 0;
-        position: absolute;
-        height: 65px;
-        width: 107px;
-        margin-top: -33px;
-        margin-left: -54px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #tizzyLogo{
-        margin: 0;
-        position: absolute;
-        height: 70px;
-        width: 172px;
-        margin-top: -35px;
-        margin-left: -86px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #fileyLogo{
-        margin: 0;
-        position: absolute;
-        height: 60px;
-        width: 199px;
-        margin-top: -30px;
-        margin-left: -99px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #inLogo{
-        margin: 0;
-        position: absolute;
-        height: 108px;
-        width: 166px;
-        margin-top: -54px;
-        margin-left: -83px;
-        left: 50%;
-        top: 50%;
-    }
-
-    #lookLogo{
-        margin: 0;
-        position: absolute;
-        height: 56px;
-        width: 196px;
-        margin-top: -28px;
-        margin-left: -98px;
-        left: 50%;
-        top: 50%;
-    }
-    
-/*    // HAND ANIMATION //*/
-
-    #bulletsCol:hover > #bullets{
-        transform: none;
-        transition: none;
-    }
-    #bullets{
-        display: none;
-    }
-    
-    #inCol:hover > #inHand{
-        transform: none;
-        transition: none;
-    }
-
-    #inHand{
-        display: none;
-    }
-
-    #tizzyCol:hover > #tizzyHand{
-        transform: none;
-        transition: none;
-    }
-
-    #tizzyHand{
-        display: none;
-    }
-}
 
