@@ -1021,6 +1021,24 @@ IPHONE 6+
         display: none;
     }
     
+    #inCol:hover > #inHand{
+        transform: none;
+        transition: none;
+    }
+
+    #inHand{
+        display: none;
+    }
+
+    #tizzyCol:hover > #tizzyHand{
+        transform: none;
+        transition: none;
+    }
+
+    #tizzyHand{
+        display: none;
+    }
+
 /*// AFTERCLICK //*/
 
     #bulletsAfterClick{
@@ -1284,7 +1302,7 @@ IPHONE 6+
         top: 50%;
     }
     
-    /*    // HAND ANIMATION //*/
+/*    // HAND ANIMATION //*/
 
     #bulletsCol:hover > #bullets{
         transform: none;
@@ -1293,7 +1311,24 @@ IPHONE 6+
     #bullets{
         display: none;
     }
-}
+    
+    #inCol:hover > #inHand{
+        transform: none;
+        transition: none;
+    }
+
+    #inHand{
+        display: none;
+    }
+
+    #tizzyCol:hover > #tizzyHand{
+        transform: none;
+        transition: none;
+    }
+
+    #tizzyHand{
+        display: none;
+    }
     
 }
 
@@ -1495,7 +1530,7 @@ IPHONE 6+
         top: 50%;
     }
     
-    /*    // HAND ANIMATION //*/
+/*    // HAND ANIMATION //*/
 
     #bulletsCol:hover > #bullets{
         transform: none;
@@ -1504,12 +1539,26 @@ IPHONE 6+
     #bullets{
         display: none;
     }
-}
-
     
-    
-}
+    #inCol:hover > #inHand{
+        transform: none;
+        transition: none;
+    }
 
+    #inHand{
+        display: none;
+    }
+
+    #tizzyCol:hover > #tizzyHand{
+        transform: none;
+        transition: none;
+    }
+
+    #tizzyHand{
+        display: none;
+    }
+}
+       
 /*IPHONE 4*/
 
 @media (max-width: 320px) {
@@ -1713,13 +1762,31 @@ IPHONE 6+
         top: 50%;
     }
     
-    /*    // HAND ANIMATION //*/
+/*    // HAND ANIMATION //*/
 
     #bulletsCol:hover > #bullets{
         transform: none;
         transition: none;
     }
     #bullets{
+        display: none;
+    }
+    
+    #inCol:hover > #inHand{
+        transform: none;
+        transition: none;
+    }
+
+    #inHand{
+        display: none;
+    }
+
+    #tizzyCol:hover > #tizzyHand{
+        transform: none;
+        transition: none;
+    }
+
+    #tizzyHand{
         display: none;
     }
 }
