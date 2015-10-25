@@ -1061,9 +1061,6 @@ input{
 
 /*RESPONSIVE 414px width mobile iphone6+ */
     
-IPHONE 6+
-*/
-
 @media (max-width: 414px) {
     #logoBig {
         position: absolute;
