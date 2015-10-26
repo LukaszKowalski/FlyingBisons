@@ -1061,7 +1061,7 @@ input{
 
 /*RESPONSIVE 720px width mobile note4 */
     
-@media (max-width: 720px) {
+@media (min-width: 720px) and (max-width: 720px) {
     #logoBig {
         position: absolute;
         height: auto;
@@ -2906,7 +2906,7 @@ input{
 
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 480px) { 
+and (max-device-height : 480px) { 
             /*    // TIZZY COLUMN //   */
     
     #sparetimeColMoreTwo{
