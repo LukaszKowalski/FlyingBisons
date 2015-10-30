@@ -117,6 +117,29 @@
                 window.scrollTo(0, 0);
 
                }); 
+            }); 
+              
+          $(function() {
+               $('#inCol').on('click', function(){
+                $.fn.fullpage.destroy();
+                $('#secondMenuProjectLogo').attr('src',"LOGO/INlogoDesktop.png");   
+                   
+                if (is_mobile()) { 
+                    $('#secondMenuLogo').attr('src',"Bcolor.png");   
+                } else {
+                    $('#secondMenuLogo').attr('src',"LogoColorSmall.png");
+                }
+                   
+                $('#secondSectionLeft').addClass('secondLayer');
+                $('#sectionOne').addClass('displayNone');
+                $('#sectionThree').addClass('displayNone');
+                $('#sectionFour').addClass('displayNone');
+                $('#sectionFive').addClass('displayNone');
+                $('#firstMenu').addClass('displayNone');
+                $('#secondMenu').removeClass('displayNone');
+                window.scrollTo(0, 0);
+
+               }); 
             });    
               
               
@@ -242,8 +265,21 @@
 
                     <div id="secondSectionLeft" class="sectionAfterClick">
                          <section class="full">
-                                <div id="one" class="sslide"></div>
-                                <div id="two" class="sslide"></div>
+                                <div id="one" class="sslide">
+                             
+                                    <div class="col-xs-12 col-md-6" id="inColMore">
+                                        <img id="inGif" src="GIF-IN.gif">          
+                                    </div>
+                                    <div class="col-xs-12 col-md-6" id="inColMoreTwo">
+                                        <div id="inMoreTwoTextcontainer" class="inColMoreTwoTextcontainer">
+                                            <h1 id="digitalPrint">when print goes digital</h1>
+                                            <p id="inColMoreTwoText">Our case was to bring city guide books to digital. We've decided to make an app which is kind of story with unique, selected places woth history and soul. That's why we refreshed identity and added "places with stories" sloga.</p>
+                                        </div>              
+                                    </div>
+                                </div>
+                            
+                                <div id="two" class="sslide">
+                                </div>
                         </section>       
                     </div>
                 

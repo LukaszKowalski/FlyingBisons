@@ -398,18 +398,15 @@ h1{
 }
 
 .sslide {
-    background-color: aqua;
+    
 }
 
 #one {
-   background-image: url('Bisons-Tizzy1.jpg');
-    background-size: cover;
+    background-color: black;
 }
 
 #two {
-   background-image: url('Bisons-Tizzy2.jpg');
-    background-size: cover;    
-    
+  
 }
 .secondNav {
     position: fixed;
@@ -450,6 +447,32 @@ h1{
 
 #sparetimeColMoreTwo{
     height: 100vh;
+}
+#inColMore{
+    height: 100vh;
+    
+}
+#inColMoreTwo{
+    height: 100vh;
+    
+}
+
+
+#inMoreTwoTextcontainer h1{
+    text-align: left;
+    font-size: 75px;  
+    color: white;
+}
+#inColMoreTwoText {
+    text-align: left;
+    font-size: 24px;
+    color: white;
+}
+
+#inGif{
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .textContainer{
@@ -1002,10 +1025,11 @@ input{
     }
 
     .sslide {
-        background-color: aqua;
+       
     }
 
     #one {
+        background-color: black;
     }
 
     #two {
@@ -1451,7 +1475,6 @@ input{
     }
 
     .sslide {
-        background-color: aqua;
     }
 
     #one {
@@ -1847,7 +1870,6 @@ input{
     }
 
     .sslide {
-        background-color: aqua;
     }
 
     #one {
