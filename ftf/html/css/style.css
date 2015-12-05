@@ -30,8 +30,7 @@ ul, li {
 } 
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0px;
-	margin-bottom: 0px;
-	line-height: 0.8;	
+	margin-bottom: 0px;	
 } 
 p {
 	margin: 0 !important;
@@ -371,6 +370,10 @@ header .banner-outer {
 #what-we-do-section {
 	background-color: #ffffff;
 }
+
+#what-we-do-section .section-heading{
+    padding-bottom: 20px;
+}
 .what-inner-wrapper {
 	position: relative;
 }
@@ -488,69 +491,35 @@ header .banner-outer {
 	width: 100%;
 }
 .popular-content p {
-	float: left;
-	font-size: 14px;
-	font-weight: bold;
-	color: #717171;
+	font-size: 30px;
+	color: #002F59;
+    text-align: center;
 	line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
-.popular-content a {
-	float: right;	
+.popular-content a {	
+	font-size: 14px;
+	color: #002F59;
+    text-align: center;
+}
+.popular-content .submit-btn {
+	text-align: center; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+    border-radius: 31px;
+	border: none;
+	width: 50%;
+} 
+.popular-content .btn-yellow {
+	background-color: #f58220;
 	color: #fff;	
 }
-.popular-content a:hover {
-	color: #fff;
+.popular-content .btn-yellow:hover {
+	background-color: #fff; 
+    color: #002F59;
 }
-.popular-content span {
-	position: relative;
-	float: right;	
-	padding-left: 11px;
-}
-.popular-content span i {
-	margin-left: 14px;
-	padding-right: 7px;
-	z-index: 1;
-}
-.popular-content .yellow span {
-	background-color: #ffae00;
-}
-.popular-content .blue span {
-	background-color: #00a0c3;
-}
-.popular-content .green span {
-	background-color: #b1d13b;
-}
-.popular-content .red span {
-	background-color: #fa3d48;
-}
-.popular-content span:before {
-	content: '';
-	position: absolute;
-	background: url('../images/price-arrow-01.png') top center no-repeat;
-	width: 7px;
-	height: 22px;
-	left: 0;
-	top: -1px;	
-}
-.popular-content span i {
-	height: 20px;
-	margin-left: 12px;
-	right: 0;
-	width: 28px;
-	padding: 3px 5px;
-}
-.popular-content .yellow span i {
-	background-color: #e49d05;
-}
-.popular-content .blue span i {
-	background-color: #1eccb3;
-}
-.popular-content .green span i {
-	background-color: #c6e944;
-}
-.popular-content .red span i {
-	background-color: #ec0a17;
-}
+
 /**** MOST POPULAR PAKAGES END****/
 /**** VIDEO SECTION****/
 #video-section {
