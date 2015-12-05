@@ -457,22 +457,41 @@ h1{
     
 }
 
+#inMoreTwoTextcontainer {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10%;
+}
 
 #inMoreTwoTextcontainer h1{
     text-align: left;
     font-size: 75px;  
     color: white;
 }
-#inColMoreTwoText {
+#inColTextWhite{
     text-align: left;
     font-size: 24px;
     color: white;
+}
+#inColTextBlack {
+    text-align: right;
+    font-size: 24px;
+    color: black;
 }
 
 #inGif{
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+#inDesktop{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .textContainer{
@@ -507,19 +526,19 @@ h1{
     display: none;
 } 
 
-#tizzyColMoreOneTextcontainer{
+.leftColMoreOneTextcontainer{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 30%;
 }
 
-#tizzyColMoreOneTextcontainer h1{
+.leftColMoreOneTextcontainer h1{
     text-align: right;
     font-size: 75px;   
 }
 
-#tizzyColMoreOneTextcontainer p{
+.leftColMoreOneTextcontainer p{
     text-align: right;
     font-size: 24px;   
 }
@@ -536,6 +555,8 @@ h1{
 }
 
 #tizzyImage1{
+    height: 100%;
+    width: auto;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -777,19 +798,19 @@ input{
     display: none;
 } 
 
-#tizzyColMoreOneTextcontainer{
+.leftColMoreOneTextcontainer{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 30%;
 }
 
-#tizzyColMoreOneTextcontainer h1{
+.leftColMoreOneTextcontainer h1{
     text-align: right;
     font-size: 75px;   
 }
 
-#tizzyColMoreOneTextcontainer p{
+.leftColMoreOneTextcontainer p{
     text-align: right;
     font-size: 24px;   
 }
@@ -819,6 +840,13 @@ input{
     height: auto;
     bottom: 0px;
     right: 0px;
+}
+#inGif{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 }
@@ -876,19 +904,19 @@ input{
     display: none;
 } 
 
-#tizzyColMoreOneTextcontainer{
+.leftColMoreOneTextcontainer{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 30%;
 }
 
-#tizzyColMoreOneTextcontainer h1{
+.leftColMoreOneTextcontainer h1{
     text-align: right;
     font-size: 75px;   
 }
 
-#tizzyColMoreOneTextcontainer p{
+.leftColMoreOneTextcontainer p{
     text-align: right;
     font-size: 24px;   
 }
@@ -1351,19 +1379,19 @@ input{
         font-size: 24px;
         font-family: "gotham-light";
     }
-    #tizzyColMoreOneTextcontainer{
+    .leftColMoreOneTextcontainer{
         position: relative;
         top: 23%;
         transform: translateY(-50%);
         margin-left: 0% !important;
     }
 
-    #tizzyColMoreOneTextcontainer h1{
+    .leftColMoreOneTextcontainer h1{
         text-align: center;
         font-size: 34px;   
     }
 
-    #tizzyColMoreOneTextcontainer p{
+    .leftColMoreOneTextcontainer p{
         text-align: center;
         font-size: 16px;
         padding-left: 15px;
@@ -1746,19 +1774,19 @@ input{
         font-size: 24px;
         font-family: "gotham-light";
     }
-    #tizzyColMoreOneTextcontainer{
+    .leftColMoreOneTextcontainer{
         position: relative;
         top: 23%;
         transform: translateY(-50%);
         margin-left: 0% !important;
     }
 
-    #tizzyColMoreOneTextcontainer h1{
+    .leftColMoreOneTextcontainer h1{
         text-align: center;
         font-size: 34px;   
     }
 
-    #tizzyColMoreOneTextcontainer p{
+    .leftColMoreOneTextcontainer p{
         text-align: center;
         font-size: 16px;
         padding-left: 15px;
@@ -2171,19 +2199,19 @@ input{
         font-size: 24px;
         font-family: "gotham-light";
     }
-    #tizzyColMoreOneTextcontainer{
+    .leftColMoreOneTextcontainer{
         position: relative;
         top: 23%;
         transform: translateY(-50%);
         margin-left: 0% !important;
     }
 
-    #tizzyColMoreOneTextcontainer h1{
+    .leftColMoreOneTextcontainer h1{
         text-align: center;
         font-size: 34px;   
     }
 
-    #tizzyColMoreOneTextcontainer p{
+    .leftColMoreOneTextcontainer p{
         text-align: center;
         font-size: 16px;
         padding-left: 15px;
@@ -2508,19 +2536,19 @@ input{
         font-size: 24px;
         font-family: "gotham-light";
     }
-    #tizzyColMoreOneTextcontainer{
+    .leftColMoreOneTextcontainer{
         position: relative;
         top: 23%;
         transform: translateY(-50%);
         margin-left: 0% !important;
     }
 
-    #tizzyColMoreOneTextcontainer h1{
+    .leftColMoreOneTextcontainer h1{
         text-align: center;
         font-size: 34px;   
     }
 
-    #tizzyColMoreOneTextcontainer p{
+    .leftColMoreOneTextcontainer p{
         text-align: center;
         font-size: 16px;
         padding-left: 15px;
@@ -2847,19 +2875,19 @@ input{
         font-size: 24px;
         font-family: "gotham-light";
     }
-    #tizzyColMoreOneTextcontainer{
+    .leftColMoreOneTextcontainer{
         position: relative;
         top: 29%;
         transform: translateY(-50%);
         margin-left: 0% !important;
     }
 
-    #tizzyColMoreOneTextcontainer h1{
+    .leftColMoreOneTextcontainer h1{
         text-align: center;
         font-size: 34px;   
     }
 
-    #tizzyColMoreOneTextcontainer p{
+    .leftColMoreOneTextcontainer p{
         text-align: center;
         font-size: 16px;
         padding-left: 15px;
@@ -2982,19 +3010,19 @@ and (max-device-height : 480px) {
         font-size: 24px;
         font-family: "gotham-light";
     }
-    #tizzyColMoreOneTextcontainer{
+    .leftColMoreOneTextcontainer{
         position: relative;
         top: 30%;
         transform: translateY(-50%);
         margin-left: 0% !important;
     }
 
-    #tizzyColMoreOneTextcontainer h1{
+    .leftColMoreOneTextcontainer h1{
         text-align: center;
         font-size: 34px;   
     }
 
-    #tizzyColMoreOneTextcontainer p{
+    .leftColMoreOneTextcontainer p{
         text-align: center;
         font-size: 16px;
         padding-left: 15px;
