@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>TravPro</title>
+        <title>Feel The Flow</title>
        <!--Bootstrap Style Sheet-->        
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">        
 		<!--Font Awesome-->
@@ -167,7 +167,7 @@ TERMINARZ WYJAZDÓW</form></button>
     						<div class="popular-content clearfix">
     							<p>Włochy, Marilleva</p>
                                     <div style="text-align:center">
-                                        <a>21.02-28.02.2016</a><br>
+                                        <p id="popular-second-p">21.02-28.02.2016</p><br>
                                         <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/#promo'">1499 zł</button>
                                     </div>
     						</div>
@@ -179,7 +179,7 @@ TERMINARZ WYJAZDÓW</form></button>
 							<div class="popular-content clearfix">
 								<p>Włochy, Marilleva</p>
                                     <div style="text-align:center">
-                                        <a>21.02-28.02.2016</a><br>
+                                        <p id="popular-second-p">21.02-28.02.2016</p><br>
                                         <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/#promo'">1499 zł</button>
                                     </div>
 							</div>
@@ -191,7 +191,7 @@ TERMINARZ WYJAZDÓW</form></button>
 							<div class="popular-content clearfix">
 								<p>Włochy, Marilleva</p>
                                     <div style="text-align:center">
-                                        <a>21.02-28.02.2016</a><br>
+                                        <p id="popular-second-p">21.02-28.02.2016</p><br>
                                         <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/#promo'">1499 zł</button>
                                     </div>
 							</div>
@@ -205,7 +205,7 @@ TERMINARZ WYJAZDÓW</form></button>
 							<div class="popular-content clearfix">
 								<p>Włochy, Marilleva</p>
                                     <div style="text-align:center">
-                                        <a>21.02-28.02.2016</a><br>
+                                        <p id="popular-second-p">21.02-28.02.2016</p><br>
                                         <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/#promo'">1499 zł</button>
                                     </div>
 							</div>
@@ -217,7 +217,7 @@ TERMINARZ WYJAZDÓW</form></button>
 							<div class="popular-content clearfix">
 								<p>Włochy, Marilleva</p>
                                     <div style="text-align:center">
-                                        <a>21.02-28.02.2016</a><br>
+                                        <p id="popular-second-p">21.02-28.02.2016</p><br>
                                         <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/#promo'">1499 zł</button>
                                     </div>
 							</div>
@@ -229,7 +229,7 @@ TERMINARZ WYJAZDÓW</form></button>
 							<div class="popular-content clearfix">
 								<p>Włochy, Marilleva</p>
                                     <div style="text-align:center">
-                                        <a>21.02-28.02.2016</a><br>
+                                        <p id="popular-second-p">21.02-28.02.2016</p><br>
                                         <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/#promo'">1499 zł</button>
                                     </div>
                                    
@@ -243,7 +243,9 @@ TERMINARZ WYJAZDÓW</form></button>
 		<!--Video Section-->
 		<section id="video-section" class="video-bg-yellow">
             <div class="col-lg-12 col-sm-12 col-xs-12 video-iframe">
-                <img src="images/video-img.jpg" data-video="http://www.youtube.com/embed/qx20A-Mf4h8?autoplay=1" class="img-responsive">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qx20A-Mf4h8" frameborder="0" allowfullscreen></iframe>
+
+<!--                <img src="images/video-img.jpg" data-video="http://www.youtube.com/embed/qx20A-Mf4h8?autoplay=1" class="img-responsive">-->
             </div>
 		</section>
 		<!--Video Section End-->
@@ -252,73 +254,7 @@ TERMINARZ WYJAZDÓW</form></button>
 		<footer>
 			<p>&copy; Copyright . All Rights Reserved.</p>
 		</footer>
-<!--BootStrap Popup Box With Form-->
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-      	<img src="http://placehold.it/475x220" class="img-responsive" alt="">        
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        	<span aria-hidden="true">&times;</span>
-        </button>
-        <div class="modal-title">
-	        <h4>Lorem ipsum dolor</h4>
-	        <p>Aenean a enim nibh. Phasellus dictum lobortis nisl eget imperdiet</p>
-    	</div>
-      </div>
-      <div class="modal-body clearfix">
-      	<form id="bookform">
-      		<fieldset>
-      			<label>Enter your Destination</label>
-      			<input type="text" name="destination" placeholder="Type Your Destination" required />
-      		</fieldset>
-			<fieldset class="input-append date" id="dp1" data-date="04-03-2015" data-date-format="dd-mm-yyyy">
-      			<label>When</label>
-				<input class="span2" size="16" type="text" placeholder="Check-in*" name="checkin" required>
-				<span class="add-on"><i class="fa fa-calendar"></i></span>
-			</fieldset>
-			<fieldset class="input-append date pull-right" id="dp2" data-date="04-03-2015" data-date-format="dd-mm-yyyy">
-      			<label>&nbsp;</label>
-				<input class="span2" size="16" type="text" placeholder="Check-out*" name="checkin" required>
-				<span class="add-on"><i class="fa fa-calendar"></i></span>
-			</fieldset>
-      		<fieldset>
-      			<label>Who</label>
-      			<select>
-      				<option>Room</option>
-      				<option>1</option>      				
-      				<option>2</option>      				
-      				<option>3</option>      				      				      				
-      			</select>
-      		</fieldset>
-      		<fieldset>
-      			<label>&nbsp;</label>
-      			<select>
-      				<option>Adults</option>
-      				<option>1</option>      				
-      				<option>2</option>      				
-      				<option>3</option>      				      				      				
-      			</select>
-      		</fieldset>
-      		<fieldset>
-      			<label>&nbsp;</label>
-      			<select>
-      				<option>Kids</option>
-      				<option>1</option>      				
-      				<option>2</option>      				
-      				<option>3</option>      				      				      				
-      			</select>
-      		</fieldset>
-      		<fieldset>
-        		<button type="button" class="submit-btn btn-yellow">Book Now</button>      		    
-      		</fieldset>
-      	</form>
-      </div>
-    </div>
-  </div>
-</div>
-<!--BootStrap Popup Box With Form End-->		
+	
   <!--Jquery-->
         <script src="js/jquery-2.1.1.min.js"></script>
         <!--Custom Jquery Scripts-->

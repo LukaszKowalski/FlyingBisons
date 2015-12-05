@@ -1,7 +1,4 @@
-/*
- * Title:   Travpro | Responsive HTML5 Travling Template - Main CSS file
- * Author:  http://themeforest.net/user/1stone
- */
+
 /* GOOGLE FONTS */ 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,400italic,500,300italic,300,100italic,100);
 /* END OF GOOGLE FONTS */
@@ -495,10 +492,9 @@ header .banner-outer {
 	color: #002F59;
     text-align: center;
 	line-height: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 8px;
 }
-.popular-content a {	
+.popular-content #popular-second-p {	
 	font-size: 14px;
 	color: #002F59;
     text-align: center;
@@ -523,12 +519,7 @@ header .banner-outer {
 /**** MOST POPULAR PAKAGES END****/
 /**** VIDEO SECTION****/
 #video-section {
-
-	height: 460px;
 	background-position: top center;
-}
-.video-bg-yellow {
-	background-repeat: repeat-x;
 }
 .video-bg-blue {
 	background-color: #00a0c3;
@@ -584,12 +575,18 @@ header .banner-outer {
 	color: #ec0a17;
 }
 .video-iframe {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;    
 	cursor: pointer;
 }	
 .video-iframe iframe {
-	border: 0 none;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
 }
 /**** VIDEO SECTION END****/
 /**** OUR TRAVEL TIP SECTION****/
