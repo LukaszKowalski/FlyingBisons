@@ -1,0 +1,136 @@
+/****Loader for Yellow****/
+#preloader-yellow {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+	background-color: #fff; 
+	z-index: 111;
+	background-color: #fead00; 
+}
+#status-yellow{
+	position: absolute;
+	top: ;
+	left: 0;
+	width: 100%;
+	height: 100%;  
+}
+.loading-yellow{
+    height: 72px;
+    left: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: relative;
+    top: 50%;
+    width: 72px;
+}
+.loading-yellow .bullet-yellow {
+    position: absolute;
+    padding: 5px;
+    width: 72px;
+    height: 72px;
+    background:url('../images/loader-1.gif') center no-repeat;
+}
+/****Loader for Blue Theme****/
+#preloader-blue {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #fff; 
+    z-index: 111;
+    background-color: #15dcbe; 
+}
+#status-blue {
+    position: absolute;
+    top: ;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+}
+.loading-blue {
+    height: 72px;
+    left: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: relative;
+    top: 50%;
+    width: 72px;
+}
+.loading-blue .bullet-blue {
+    position: absolute;
+    padding: 5px;
+    width: 72px;
+    height: 72px;
+    background:url('../images/loader-2.gif') center no-repeat;
+}
+/****Loader for Green Theme****/
+#preloader-green {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #fff; 
+    z-index: 111;
+    background-color: #c6e944; 
+}
+#status-green {
+    position: absolute;
+    top: ;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+}
+.loading-green {
+    height: 72px;
+    left: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: relative;
+    top: 50%;
+    width: 72px;
+}
+.loading-green .bullet-green {
+    position: absolute;
+    padding: 5px;
+    width: 72px;
+    height: 72px;
+    background:url('../images/loader-3.gif') center no-repeat;
+}
+/****Loader for Red Theme****/
+#preloader-red {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #fff; 
+    z-index: 111;
+    background-color: #ec0a17; 
+}
+#status-red {
+    position: absolute;
+    top: ;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+}
+.loading-red {
+    height: 72px;
+    left: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: relative;
+    top: 50%;
+    width: 72px;
+}
+.loading-red .bullet-red {
+    position: absolute;
+    padding: 5px;
+    width: 72px;
+    height: 72px;
+    background:url('../images/loader-4.gif') center no-repeat;
+}
