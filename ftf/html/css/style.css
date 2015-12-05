@@ -847,133 +847,7 @@ footer {
 	color: #717171;
 }
 /**** FOOTER END****/
-/**** POPUP STYLE****/
-.modal-dialog {
-     width: 475px;
-}
-.close {
-  	color: #fff;
-    float: none;
-    font-size: 21px;
-    font-weight: bold;
-    line-height: 1;
-    opacity: 10;
-    position: absolute;
-    right: 0;
-    text-shadow: 0 1px 0 #fff;
-    z-index: 999999;
-}
-.modal-header {
-	position: relative;
-    border-bottom:none;
-    text-align: center;
-	color: #fff;
-	padding: 0px;
-	min-height:auto;
-	height: 220px;
-}
-.modal-header img {
-	position: absolute;
-	width: 100%;
-}
-.modal-header .modal-title {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-}
-.modal-header .modal-title h4:before {
-	background-color: #d3d3d3;
-    content: "";
-    height: 1px;
-    left: 50%;
-    margin-left: -95.5px;
-    margin-top: 53px;
-    position: absolute;
-    width: 191px;
-}
-.modal-header .modal-title h4:after {
-	background-color: #d3d3d3;
-    content: "";
-    height: 5px;
-    left: 50%;
-    margin-left: -41px;
-    margin-top: 51px;
-    position: absolute;
-    width: 82px;
-}
-.modal-header .modal-title h4 {
-	font-size: 36px;
-	font-weight: normal;
- 	padding-bottom: 20px;
-	padding-top: 66px; 	
- 	line-height: 0.7;
-}	
-.modal-header .modal-title p {
-	padding-top: 35px;
-	font-size: 14px;
-}
-.modal-content {
-	background-color:#dee4ea;
-	border-radius: 0px;
-}
-.modal-body {
-	padding: 45px 30px 0px;
-}
-.modal-body form fieldset label {
-	display: block;
-	color: #717171;
-	font-weight: 300;	
-	margin-bottom:0px; 
-}
-.modal-body form fieldset:nth-child(2),
-.modal-body form fieldset:nth-child(3) {
-	float: left;
-	width: 49%;
-	padding-top: 20px;
-}
-.modal-body form fieldset .add-on {
-	top: 40px;
-}
-.modal-body form fieldset:nth-child(4),
-.modal-body form fieldset:nth-child(5),
-.modal-body form fieldset:nth-child(6) {
-	width: 130px;
-	float: left;
-	padding-top: 20px;
-}
-.modal-body form fieldset:nth-child(4),
-.modal-body form fieldset:nth-child(5) {
-	margin-right: 11px;
-}
-.modal-body form fieldset input,
-.modal-body form fieldset select {	
-	width: 100%;
-	padding-left: 10px;
-	height: 40px;
-	font-weight: 300;
-	font-size: 14px;	
-	color: #717171;
-}
-.modal-body form fieldset select {
-	border: 0 !important;  /*Removes border*/
-	-webkit-appearance: none;  /*Removes default chrome and safari style*/
-	-moz-appearance: none; /* Removes Default Firefox style*/
-	background: url('../images/popup-dropdown.png') no-repeat #fff;  /*Adds background-image*/
-    background-position: 94% 54%;		
-	text-indent: 0.01px; /* Removes default arrow from firefox*/
-	text-overflow: "";  /*Removes default arrow from firefox*/
-	cursor: pointer;
-}
-.modal-body form fieldset:nth-child(7) {
-	text-align: center;
-    padding: 40px 0px;
-    clear: both;
-}
-.modal-body form fieldset:nth-child(7) button {
-	height: 60px;
-    width: 355px;
-}
-/**** POPUP STYLE END****/
+
 /**** Safari Hacks****/
 #testimonial-section:not(*:root) {
 	background-attachment:fixed;
@@ -1108,7 +982,7 @@ footer {
 		font-size: 18px;
 	}
 	.banner-text-2 h1 {
-		font-size: 46px;
+		font-size: 34px;
 	}
 	.banner-text-2 button {
 	    width: 100%;
