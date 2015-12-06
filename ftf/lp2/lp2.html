@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!--Bootstrap Style Sheet-->        
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">   
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/other.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script><!--[if lt IE 9]>
+    <html class="lt-ie9">
+      <div style="clear: both; text-align:center; position: relative;"><a href="http://windows.microsoft.com/en-US/internet-explorer/.."><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    </html>
+    <script src="js/html5shiv.js"></script><![endif]-->
+    <script src="js/device.min.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <!--
+      ========================================================
+      							HEADER
+      ========================================================
+      -->
+      <header>
+        <div class="header_panel">
+          <div class="container">
+            <div class="brand">
+              <img src="images/FTWLogo.png">
+            </div>
+            <div class="booking_wr">
+              <form id="bookingForm" class="booking-form">
+                <h2 class="center">Najlepsze zimowe wyjazdy<br>dla Twojej ekipy</h2>
+                <h4 class="center">Zostaw nam kontakt, a nasz konsultant zaproponuje Ci najlepsze oferty</h4>
+                <div class="tmInput">
+                  <input name="Name" placeHolder="Imię" type="text" data-constraints="@NotEmpty @Required @AlphaSpecial">
+                </div>
+                <div class="tmInput">
+                  <input name="E-mail" placeHolder="Numer telefonu" type="text" data-constraints="@NotEmpty @Required @Email">
+                </div>
+                <div class="tmInput">
+                  <input name="Message" placeHolder="E-mail" type="text" data-constraints="@NotEmpty @Required">
+                </div><a href="#" data-type="submit">Otrzymaj najlepsze oferty</a>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="camera_container">
+          <div id="camera" class="camera_wrap">
+            <div data-src="images/fota1.jpg">
+              <div id="mainphoto" class="camera_caption fadeIn"></div>
+            </div>
+            <div data-src="images/fota2.jpg">
+              <div id="mainphoto" class="camera_caption fadeIn"></div>
+            </div>
+            <div data-src="images/fota1.jpg">
+              <div id="mainphoto" class="camera_caption fadeIn"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--
+      ========================================================
+      							CONTENT
+      ========================================================
+      -->
+      <main>
+<!--Most Popular Packages Section-->
+		<section id="popular-pakages-section">
+			<div class="section-heading">
+    			<h2>Najpopularniejsze wyjazdy</h2>
+    		</div>
+    		<div class="container">
+    			<div class="row row popular-row1-animations">
+    				<div class="col-sm-4 col-xs-12">
+    					<div class="popular-inner">
+	    						<img src="images/PhotoWyjazd1.jpg" alt="" class="img-responsive"/>
+    						<div class="popular-content clearfix">
+    							<p>Włochy, Marilleva</p>
+                                    <div style="text-align:center">
+                                        <p id="popular-second-p">21.02-28.02.2016</p><br>
+                                        <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/offer/show/70/new-years-bomb'">1499 zł</button>
+                                    </div>
+    						</div>
+    					</div>
+    				</div>
+					<div class="col-sm-4 col-xs-12">
+						<div class="popular-inner">
+								<img src="images/PhotoWyjazd1.jpg" alt="" class="img-responsive"/>
+							<div class="popular-content clearfix">
+								<p>Włochy, Marilleva</p>
+                                    <div style="text-align:center">
+                                        <p id="popular-second-p">21.02-28.02.2016</p><br>
+                                        <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/offer/show/70/new-years-bomb'">1499 zł</button>
+                                    </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<div class="popular-inner">
+								<img src="images/PhotoWyjazd1.jpg" alt="" class="img-responsive"/>
+							<div class="popular-content clearfix">
+								<p>Włochy, Marilleva</p>
+                                    <div style="text-align:center">
+                                        <p id="popular-second-p">21.02-28.02.2016</p><br>
+                                        <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/offer/show/70/new-years-bomb'">1499 zł</button>
+                                    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+    			<div class="row row popular-row2-animations">
+					
+                    <button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/#promo'">
+TERMINARZ WYJAZDÓW</form></button>
+                    
+    			</div>
+    		</div>
+		</section>				
+		<!--Most Popular Packages Section End-->
+
+        <section class="gallery"><a href="images/page-1_img08_original.jpg" data-fancybox-group="1" class="thumb"><img src="images/page-1_img08.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">sauntmagni dolores</span></a><a href="images/page-1_img09_original.jpg" data-fancybox-group="1" class="thumb"><img src="images/page-1_img09.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">lement velursu</span></a><a href="images/page-1_img10_original.jpg" data-fancybox-group="1" class="thumb"><img src="images/page-1_img10.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">edaty fenanec</span></a><a href="images/page-1_img11_original.jpg" data-fancybox-group="1" class="thumb"><img src="images/page-1_img11.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">sauntmagni dolores</span></a><a href="images/page-1_img12_original.jpg" data-fancybox-group="1" class="thumb"><img src="images/page-1_img12.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">lement velursu</span></a><a href="images/page-1_img13_original.jpg" data-fancybox-group="1" class="thumb"><img src="images/page-1_img13.jpg" alt=""><span class="thumb_overlay"> </span><span class="thumb_overlay_cnt">sauntmagni dolores</span></a></section>
+      
+<!--What We Do Section-->
+    	<section id="what-we-do-section">
+    		<div class="section-heading">
+    			<h2>Kim jesteśmy ?</h2>    			
+    		</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 col-xs-12">
+						<div class="what-inner-wrapper">
+							<div class="what-img-wrapper img-circle">
+								<img src="images/Ico1.png" class="img-responsive img-circle" alt="" />
+							</div>
+							<h3>10</h3>
+							<p>
+								LAT DOŚWIADCZENIA
+							</p>
+	    				</div> 
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<div class="what-inner-wrapper">
+							<div class="what-img-wrapper img-circle">
+								<img src="images/Ico2.png" class="img-responsive img-circle" alt="" />
+							</div>
+							<h3>100</h3>
+							<p>
+								ODBYTYCH WYJAZDÓW
+							</p>
+	    				</div> 
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<div class="what-inner-wrapper no-padding">
+							<div class="what-img-wrapper img-circle">
+								<img src="images/Ico3.png" class="img-responsive img-circle" alt="" />
+							</div>
+							<h3>15 000</h3>
+							<p>
+								ZADOWOLONYCH UCZESTNIKÓW
+							</p>
+	    				</div> 
+					</div>		
+				</div>
+			</div>
+    	</section>
+		<!--What We Do Section End-->
+        <section data-url="images/fota2.jpg" data-mobile="true" class="well3 center parallax">
+          <h2>Zainteresowany naszymi wyjazdami?</h2>
+          <a href="#" class="btn">DOWIEDZ SIĘ WIĘCEJ</a>
+        </section>
+      </main>
+      <!--
+      ========================================================
+      							FOOTER
+      ========================================================
+      -->
+      <footer class="mobile-center">
+        <div class="container">
+          <div class="row">
+            <div class="grid_4">
+              <ul class="inline-list">
+                <li><a href="#" class="fa-twitter"></a></li>
+                <li><a href="#" class="fa-google-plus"></a></li>
+                <li><a href="#" class="fa-facebook"></a></li>
+                <li><a href="#" class="fa-rss"></a></li>
+              </ul>
+            </div>
+            <div class="grid_3">
+              <address>28 Jackson Blvd Ste 1020 Chicago<br/> IL 60604-2340</address>
+            </div>
+            <div class="grid_5"><a href="mailto:#" class="fa-envelope">info@demolink.org</a>
+              <div class="copyright"> © <span id="copyright-year"></span> | All rights reserved</div><!-- {%FOOTER_LINK} -->
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script><!-- coded by Kirk -->
+  </body>
+</html>
