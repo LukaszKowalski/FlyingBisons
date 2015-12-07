@@ -2,9 +2,56 @@
 @import url(animate.css);
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700|Open+Sans+Condensed:300,700|Six+Caps|Qwigley);
+
+/*========================================================
+                      Fonts
+=========================================================*/
+
+
+@font-face {
+	font-family:'SFUIDisplay-Ultralight';
+	src: url('SFUIDisplay-Ultralight_gdi.eot');
+	src: url('SFUIDisplay-Ultralight_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SFUIDisplay-Ultralight_gdi.woff') format('woff'),
+		url('SFUIDisplay-Ultralight_gdi.ttf') format('truetype'),
+		url('SFUIDisplay-Ultralight_gdi.svg#SFUIDisplay-Ultralight') format('svg');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'SFUIDisplay-Regular';
+	src: url('SFUIDisplay-Regular_gdi.eot');
+	src: url('SFUIDisplay-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SFUIDisplay-Regular_gdi.woff') format('woff'),
+		url('SFUIDisplay-Regular_gdi.ttf') format('truetype'),
+		url('SFUIDisplay-Regular_gdi.svg#SFUIDisplay-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'SFUIDisplay-Medium';
+	src: url('SFUIDisplay-Medium_gdi.eot');
+	src: url('SFUIDisplay-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SFUIDisplay-Medium_gdi.woff') format('woff'),
+		url('SFUIDisplay-Medium_gdi.ttf') format('truetype'),
+		url('SFUIDisplay-Medium_gdi.svg#SFUIDisplay-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+
 /*========================================================
                       Main Styles
 =========================================================*/
+
 body {
   background: #ffffff;
   color: #4d4d4d;
@@ -223,6 +270,7 @@ p + .pricing-table {
   content: "";
   width: 394px;
   height: 238px;
+    z-index: 6;
 }
 .brand:after {
     content: "";
@@ -232,9 +280,8 @@ p + .pricing-table {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0px 250px 143px 247px;
+    border-width: 0px 280px 176px 280px;
     border-color: transparent transparent #ffffff transparent;
-    z-index: 1;
 }
 #mainphoto{
     max-width: 100%;
@@ -777,7 +824,7 @@ header {
 }
 
 .header_panel {
-    background-color: #ffffff;
+  background-color: #ffffff;
   position: absolute;
   top: 660px;
   left: 0;
