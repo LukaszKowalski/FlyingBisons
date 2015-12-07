@@ -196,6 +196,7 @@ p + .pricing-table {
                         Components
 =========================================================*/
 /*==================     Brand     ======================*/
+
 .brand {
   position: relative;
   display: inline-block;
@@ -776,10 +777,12 @@ header {
 }
 
 .header_panel {
+    background-color: #ffffff;
   position: absolute;
   top: 660px;
   left: 0;
   right: 0;
+  z-index: 5;
 }
 @media (max-width: 1199px) {
   .header_panel {

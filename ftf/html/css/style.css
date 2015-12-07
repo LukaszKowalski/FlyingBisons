@@ -27,25 +27,48 @@ ul, li {
 	list-style: none;
 	margin-bottom: 0px;	
 } 
-@font-face { 
-	font-family: "SF-bold"; 
-	src: url('/FONT/SF-UI-Display-Bold.otf'); 
+@font-face {
+	font-family:'SFUIDisplay-Ultralight';
+	src: url('SFUIDisplay-Ultralight_gdi.eot');
+	src: url('SFUIDisplay-Ultralight_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SFUIDisplay-Ultralight_gdi.woff') format('woff'),
+		url('SFUIDisplay-Ultralight_gdi.ttf') format('truetype'),
+		url('SFUIDisplay-Ultralight_gdi.svg#SFUIDisplay-Ultralight') format('svg');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
 }
-@font-face { 
-	font-family: "SF-medium"; 
-	src: url('/fonts/SF-UI-DISPLAY-MEDIUM.OTF'); 
+
+@font-face {
+	font-family:'SFUIDisplay-Regular';
+	src: url('SFUIDisplay-Regular_gdi.eot');
+	src: url('SFUIDisplay-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SFUIDisplay-Regular_gdi.woff') format('woff'),
+		url('SFUIDisplay-Regular_gdi.ttf') format('truetype'),
+		url('SFUIDisplay-Regular_gdi.svg#SFUIDisplay-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
 }
-@font-face { 
-	font-family: "SF-ultraligh"; 
-	src: url('/FONT/SF-UI-Display-Ultralight.otf'); 
-}
-@font-face { 
-	font-family: "SF-regular"; 
-	src: url('/FONT/SF-UI-Display-Regular.otf'); 
+
+@font-face {
+	font-family:'SFUIDisplay-Medium';
+	src: url('SFUIDisplay-Medium_gdi.eot');
+	src: url('SFUIDisplay-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+		url('SFUIDisplay-Medium_gdi.woff') format('woff'),
+		url('SFUIDisplay-Medium_gdi.ttf') format('truetype'),
+		url('SFUIDisplay-Medium_gdi.svg#SFUIDisplay-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
 }
 
 
 h1, h2, h3, h4, h5, h6 { 
+    font-family: "SFUIDisplay-Medium"
 	margin-top: 0px;
 	margin-bottom: 0px;	
 } 
@@ -71,8 +94,7 @@ section {
 /* BUTTON STYLING */
 .submit-btn {
 	text-align: center; 
-	font-family: 'Roboto', sans-serif;
-/*    font-family: "SF-medium";*/
+    font-family: "SFUIDisplay-Medium"
 	font-size: 20px;
     border-radius: 31px;
 	border: none;

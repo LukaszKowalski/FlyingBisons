@@ -3,9 +3,12 @@
                         Camera
 =========================================================*/
 .camera_container {
+  background: url(images/_MG_2018.png) no-repeat center ;
+  background-size: cover;
   position: relative;
   padding-bottom: 660px;
   border-bottom: 106px solid transparent;
+    z-index: 0;
 }
 @media (max-width: 1199px) {
   .camera_container {
