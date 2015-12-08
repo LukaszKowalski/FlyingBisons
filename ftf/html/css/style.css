@@ -1023,6 +1023,9 @@ footer {
 		height: 600px;
 	}
 	/* DISPLAY STYLING */
+    .header-top{
+        padding-top: 20px;     
+    }
 	.header-top .logo {
 	    float: none;
 	    margin: 0 auto;
@@ -1057,8 +1060,11 @@ footer {
 	}
 	/**** Without Form Header Theme Style End****/
 	.what-inner-wrapper {
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 	}
+    .section {
+        padding-top: 35px;
+    }
 	.section-heading h2 {
 	    font-size: 28px;
 	}
