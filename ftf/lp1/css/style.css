@@ -28,12 +28,12 @@ ul, li {
 	margin-bottom: 0px;	
 } 
 @font-face {
-	font-family:'SFUIDisplay-Ultralight';
-	src: url('SFUIDisplay-Ultralight_gdi.eot');
-	src: url('SFUIDisplay-Ultralight_gdi.eot?#iefix') format('embedded-opentype'),
-		url('SFUIDisplay-Ultralight_gdi.woff') format('woff'),
-		url('SFUIDisplay-Ultralight_gdi.ttf') format('truetype'),
-		url('SFUIDisplay-Ultralight_gdi.svg#SFUIDisplay-Ultralight') format('svg');
+	font-family:'../fonts/SFUIDisplay-Ultralight';
+	src: url('../fonts/SFUIDisplay-Ultralight_gdi.eot');
+	src: url('../fonts/SFUIDisplay-Ultralight_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SFUIDisplay-Ultralight_gdi.woff') format('woff'),
+		url('../fonts/SFUIDisplay-Ultralight_gdi.ttf') format('truetype'),
+		url('../fonts/SFUIDisplay-Ultralight_gdi.svg#SFUIDisplay-Ultralight') format('svg');
 	font-weight: 100;
 	font-style: normal;
 	font-stretch: normal;
@@ -42,11 +42,11 @@ ul, li {
 
 @font-face {
 	font-family:'SFUIDisplay-Regular';
-	src: url('SFUIDisplay-Regular_gdi.eot');
-	src: url('SFUIDisplay-Regular_gdi.eot?#iefix') format('embedded-opentype'),
-		url('SFUIDisplay-Regular_gdi.woff') format('woff'),
-		url('SFUIDisplay-Regular_gdi.ttf') format('truetype'),
-		url('SFUIDisplay-Regular_gdi.svg#SFUIDisplay-Regular') format('svg');
+	src: url('../fonts/SFUIDisplay-Regular_gdi.eot');
+	src: url('../fonts/SFUIDisplay-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SFUIDisplay-Regular_gdi.woff') format('woff'),
+		url('../fonts/SFUIDisplay-Regular_gdi.ttf') format('truetype'),
+		url('../fonts/SFUIDisplay-Regular_gdi.svg#SFUIDisplay-Regular') format('svg');
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
@@ -55,11 +55,11 @@ ul, li {
 
 @font-face {
 	font-family:'SFUIDisplay-Medium';
-	src: url('SFUIDisplay-Medium_gdi.eot');
-	src: url('SFUIDisplay-Medium_gdi.eot?#iefix') format('embedded-opentype'),
-		url('SFUIDisplay-Medium_gdi.woff') format('woff'),
-		url('SFUIDisplay-Medium_gdi.ttf') format('truetype'),
-		url('SFUIDisplay-Medium_gdi.svg#SFUIDisplay-Medium') format('svg');
+	src: url('../fonts/SFUIDisplay-Medium_gdi.eot');
+	src: url('../fonts/SFUIDisplay-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SFUIDisplay-Medium_gdi.woff') format('woff'),
+		url('../fonts/SFUIDisplay-Medium_gdi.ttf') format('truetype'),
+		url('../fonts/SFUIDisplay-Medium_gdi.svg#SFUIDisplay-Medium') format('svg');
 	font-weight: 500;
 	font-style: normal;
 	font-stretch: normal;
