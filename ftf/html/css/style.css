@@ -497,6 +497,7 @@ header .banner-outer {
 }
 .last-deal-inner h3 {
 	font-size: 60px;
+    line-height: 1.5;
 	font-weight: normal;
 	color: #fff;
 	padding-bottom: 25px;
@@ -1069,7 +1070,7 @@ footer {
 	    font-size: 28px;
 	}
 	.last-deal-inner h3 {
-	    font-size: 16px;
+	    font-size: 36px;
 	}
 	.last-deal-inner p {
 	    padding: 0 0 75px;
