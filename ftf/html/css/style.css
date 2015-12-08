@@ -1023,7 +1023,7 @@ footer {
 		height: 600px;
 	}
 	/* DISPLAY STYLING */
-    .header-top{
+    header .header-top{
         padding-top: 20px;     
     }
 	.header-top .logo {
