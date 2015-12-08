@@ -385,7 +385,7 @@ header .banner-outer {
 }
 
 .banner-bg {
-	background: url('../images/Photo1.jpg') no-repeat top center ; 
+    background: url(images/Warstwa-5.png) no-repeat top center;
 	background-size: cover;		
 }
 /**** Without Form Header Theme Style End****/
@@ -403,9 +403,6 @@ header .banner-outer {
 }
 .section-heading span {
 	font-weight: normal;
-}
-#mouse-mobile {
-    display:none;
 }
 /**** SECTION HEADING END****/
 /**** WHAT WE DO****/
@@ -984,7 +981,7 @@ footer {
         display: block;   
     }
     .banner-bg {
-    	background: url('../images/Photo1-m.jpg') no-repeat top center ; 
+        background: url(images/MergedLayers.png)  no-repeat top center;
 	    background-size: cover;		
     }
     
@@ -1006,7 +1003,7 @@ footer {
         display: block;   
     }
     .banner-bg {
-    	background: url('../images/Photo1-m.jpg') no-repeat top center ; 
+        background: url(images/MergedLayers.png)  no-repeat top center;
 	    background-size: cover;		
     }
 	.datepicker {
