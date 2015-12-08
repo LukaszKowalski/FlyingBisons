@@ -1020,7 +1020,7 @@ footer {
 }
 @media all and (min-width:0px) and (max-width:767px) {	
 	header .banner-outer {
-		height: 600px;
+		height: 500px;
 	}
 	/* DISPLAY STYLING */
     header .header-top{
@@ -1062,8 +1062,8 @@ footer {
 	.what-inner-wrapper {
 		padding-bottom: 20px;
 	}
-    .section {
-        padding-top: 35px;
+    #what-we-do-section {
+	    padding-top: 40px;
     }
 	.section-heading h2 {
 	    font-size: 28px;
