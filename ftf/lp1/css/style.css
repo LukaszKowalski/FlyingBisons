@@ -1078,6 +1078,10 @@ footer {
 	.last-deal-inner button {
 	    width: 100%;
 	}
+   #popular-pakages-section {
+	    background-color:#ffffff;
+	    padding-bottom: 0px; 
+    }
 	#popular-pakages-section .popular-inner {
 	    margin: 0 auto;
 	    margin-bottom: 20px;
@@ -1091,6 +1095,7 @@ footer {
 	}
 	#video-section {
 	    height: auto;
+        padding-top: 0;
 	}
 	#video-section .video-content {
 		text-align: center;

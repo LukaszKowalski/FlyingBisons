@@ -96,7 +96,7 @@ section {
 	text-align: center; 
     font-family: "SFUIDisplay-Medium"
 	font-size: 20px;
-    border-radius: 31px;
+    border-radius: 9px;
 	border: none;
 	width: 100%;
 } 
@@ -299,7 +299,7 @@ header .banner-outer {
 }
 .banner-text h1 {
 	font-size: 86px;
-	font-weight: normal;
+	font-weight: 100;
 	padding-bottom: 8px;
 	top: -20px;  
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  
@@ -980,10 +980,6 @@ footer {
     #mouse-mobile {
         display: block;   
     }
-    .banner-bg {
-        background: url(images/MergedLayers.png)  no-repeat top center;
-	    background-size: cover;		
-    }
     
 	.datepicker {
 		left: 43% !important;
@@ -1002,10 +998,6 @@ footer {
     #mouse-mobile {
         display: block;   
     }
-    .banner-bg {
-        background: url(images/MergedLayers.png)  no-repeat top center;
-	    background-size: cover;		
-    }
 	.datepicker {
 		left: 25% !important;
 	}
@@ -1020,7 +1012,16 @@ footer {
 	header .banner-outer {
 		height: 500px;
 	}
+    .banner-bg {
+        background: url(../images/RaperzyMobileFota.jpg)  no-repeat top center;
+	    background-size: cover;		
+    }
 	/* DISPLAY STYLING */
+    #logo {
+               margin: 0 auto; 
+       width: 70%;
+
+    }
     header .header-top{
         padding-top: 20px;     
     }
@@ -1051,10 +1052,18 @@ footer {
 		font-size: 18px;
 	}
 	.banner-text-2 h1 {
-		font-size: 30px;
+		font-size: 28px;
+        padding-bottom: 4px;
+	}
+    .banner-text-2 h2 {
+		font-size: 18px;
+        margin-top: 0px;
+        padding-bottom: 4px;
 	}
 	.banner-text-2 button {
-	    width: 100%;
+	    width: 65%;
+        height: 55px;
+        margin-top: 20px;
 	}
 	/**** Without Form Header Theme Style End****/
 	.what-inner-wrapper {
@@ -1075,6 +1084,11 @@ footer {
 	.last-deal-inner button {
 	    width: 100%;
 	}
+    #popular-pakages-section {
+	    background-color:#ffffff;
+	    padding-bottom: 0px; 
+    }
+    
 	#popular-pakages-section .popular-inner {
 	    margin: 0 auto;
 	    margin-bottom: 20px;
@@ -1088,6 +1102,7 @@ footer {
 	}
 	#video-section {
 	    height: auto;
+        padding-top: 0;
 	}
 	#video-section .video-content {
 		text-align: center;
