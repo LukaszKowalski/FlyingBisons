@@ -404,7 +404,9 @@ header .banner-outer {
 .section-heading span {
 	font-weight: normal;
 }
-
+#mouse-mobile {
+    display:none;
+}
 /**** SECTION HEADING END****/
 /**** WHAT WE DO****/
 #what-we-do-section {
@@ -916,6 +918,7 @@ footer {
 /**** MEDIA QUERY FOR IPAD****/
 @media all and (min-width:768px) and (max-width:991px) {
 	header .banner-outer {
+        padding: 0 0;
 		height: 100%;
 	}
 	.banner-form {
@@ -973,6 +976,17 @@ footer {
 /**** MEDIA QUERY FOR IPAD END****/
 /**** MEDIA QUERY FOR IPHONE****/
 @media all and (min-width:321px) and (max-width:480px) {
+    #mouse {
+         display: none;
+    }
+    #mouse-mobile {
+        display: block;   
+    }
+    .banner-bg {
+    	background: url('../images/Photo1-m.jpg') no-repeat top center ; 
+	    background-size: cover;		
+    }
+    
 	.datepicker {
 		left: 43% !important;
 	}
@@ -984,6 +998,16 @@ footer {
 	}
 }
 @media only screen and (max-width:320px) {
+    #mouse {
+         display: none;
+    }
+    #mouse-mobile {
+        display: block;   
+    }
+    .banner-bg {
+    	background: url('../images/Photo1-m.jpg') no-repeat top center ; 
+	    background-size: cover;		
+    }
 	.datepicker {
 		left: 25% !important;
 	}
@@ -1017,6 +1041,7 @@ footer {
 	}
 	/**** Without Form Header Theme Style****/
 	.banner-text-2 {
+        padding: 0 0;
 		margin-top: 0px;
 		width: 100%;
 	}
@@ -1025,7 +1050,7 @@ footer {
 		font-size: 18px;
 	}
 	.banner-text-2 h1 {
-		font-size: 34px;
+		font-size: 30px;
 	}
 	.banner-text-2 button {
 	    width: 100%;
