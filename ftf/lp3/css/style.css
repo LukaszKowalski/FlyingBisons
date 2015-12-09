@@ -1,6 +1,6 @@
 
 /* GOOGLE FONTS */ 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,400italic,500,300italic,300,100italic,100);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900&subset=latin,latin-ext);
 /* END OF GOOGLE FONTS */
 
 
@@ -14,6 +14,7 @@ body.modal-open {
     overflow: hidden;
 }
 * {
+    font-weight: 500;
 	margin: 0px;
 	padding: 0px;
 }
@@ -27,6 +28,7 @@ ul, li {
 	list-style: none;
 	margin-bottom: 0px;	
 } 
+/*
 @font-face {
 	font-family:'SFUIDisplay-Ultralight';
 	src: url('../fonts/SFUIDisplay-Ultralight_gdi.eot');
@@ -65,10 +67,12 @@ ul, li {
 	font-stretch: normal;
 	unicode-range: U+0020-25CA;
 }
+*/
 
 
 h1, h2, h3, h4, h5, h6 { 
-    font-family: "SFUIDisplay-Medium";
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
 	margin-bottom: 0px;	
 } 
 p {
@@ -93,7 +97,7 @@ section {
 /* BUTTON STYLING */
 .submit-btn {
 	text-align: center; 
-    font-family: "SFUIDisplay-Medium"
+/*    font-family: "SFUIDisplay-Medium"*/
 	font-size: 20px;
     border-radius: 9px;
 	border: none;
@@ -358,17 +362,16 @@ header .banner-outer {
 	opacity: 0; 	
 }
 .banner-text-2 p {
-    font-family: "SFUIDisplay-Medium";
+/*    font-family: "SFUIDisplay-Medium";*/
 	padding-bottom: 15px;
 }
 .banner-text-2 h2 {
-    font-family: "SFUIDisplay-Ultralight";
-   
+    margin-top: -15px;   
 }
 
 .banner-text-2 h1 {
 	font-size: 50px;
-    font-family: "SFUIDisplay-Ultralight";
+/*    font-family: "SFUIDisplay-Ultralight";*/
 	padding-bottom: 18px;
 	top: -20px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  

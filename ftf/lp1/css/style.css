@@ -1,6 +1,6 @@
 
 /* GOOGLE FONTS */ 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,400italic,500,300italic,300,100italic,100);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900&subset=latin,latin-ext);
 /* END OF GOOGLE FONTS */
 
 
@@ -27,48 +27,9 @@ ul, li {
 	list-style: none;
 	margin-bottom: 0px;	
 } 
-@font-face {
-	font-family:'../fonts/SFUIDisplay-Ultralight';
-	src: url('../fonts/SFUIDisplay-Ultralight_gdi.eot');
-	src: url('../fonts/SFUIDisplay-Ultralight_gdi.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/SFUIDisplay-Ultralight_gdi.woff') format('woff'),
-		url('../fonts/SFUIDisplay-Ultralight_gdi.ttf') format('truetype'),
-		url('../fonts/SFUIDisplay-Ultralight_gdi.svg#SFUIDisplay-Ultralight') format('svg');
-	font-weight: 100;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-25CA;
-}
-
-@font-face {
-	font-family:'SFUIDisplay-Regular';
-	src: url('../fonts/SFUIDisplay-Regular_gdi.eot');
-	src: url('../fonts/SFUIDisplay-Regular_gdi.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/SFUIDisplay-Regular_gdi.woff') format('woff'),
-		url('../fonts/SFUIDisplay-Regular_gdi.ttf') format('truetype'),
-		url('../fonts/SFUIDisplay-Regular_gdi.svg#SFUIDisplay-Regular') format('svg');
-	font-weight: 400;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-25CA;
-}
-
-@font-face {
-	font-family:'SFUIDisplay-Medium';
-	src: url('../fonts/SFUIDisplay-Medium_gdi.eot');
-	src: url('../fonts/SFUIDisplay-Medium_gdi.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/SFUIDisplay-Medium_gdi.woff') format('woff'),
-		url('../fonts/SFUIDisplay-Medium_gdi.ttf') format('truetype'),
-		url('../fonts/SFUIDisplay-Medium_gdi.svg#SFUIDisplay-Medium') format('svg');
-	font-weight: 500;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-25CA;
-}
-
 
 h1, h2, h3, h4, h5, h6 { 
-    font-family: "SFUIDisplay-Medium";
+    font-family: "Roboto", sans-serif;
 	margin-top: 0px;
 	margin-bottom: 0px;	
 } 
@@ -94,7 +55,7 @@ section {
 /* BUTTON STYLING */
 .submit-btn {
 	text-align: center; 
-    font-family: "SFUIDisplay-Medium"
+    font-family: "Roboto", sans-serif;
 	font-size: 20px;
     border-radius: 31px;
 	border: none;
