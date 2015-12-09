@@ -5,7 +5,7 @@
 	font-family: 'Roboto', sans-serif;
 /*    font-family: "SF-medium";*/
 	font-size: 20px;
-    border-radius: 31px;
+    border-radius: 6px;
 	border: none;
 	width: 100%;
 } 
@@ -460,12 +460,12 @@ header .banner-outer {
 	width: 50%;
 } 
 .popular-content .btn-yellow {
-	background-color: #f58220;
+	background-color: #002f59;
 	color: #fff;	
 }
 .popular-content .btn-yellow:hover {
 	background-color: #fff; 
-    color: #002F59;
+    color: #002f59;
 }
 
 /**** MOST POPULAR PAKAGES END****/
