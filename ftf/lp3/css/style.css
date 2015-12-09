@@ -14,7 +14,6 @@ body.modal-open {
     overflow: hidden;
 }
 * {
-    font-weight: 500;
 	margin: 0px;
 	padding: 0px;
 }
@@ -270,6 +269,14 @@ header .banner-outer {
 	-khtml-opacity: 0; 
 	opacity: 0; 
 }
+.banner-text h2 {
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  
+	filter: alpha(opacity=0); 
+	-moz-opacity: 0; 
+	-khtml-opacity: 0; 
+	opacity: 0; 	   
+}
+
 /*Scroll Down*/
 .scrolldown {
 	padding-top: 20px;
@@ -325,7 +332,12 @@ header .banner-outer {
 	padding-bottom: 15px;
 }
 .banner-text-2 h2 {
-    margin-top: -15px;   
+    margin-top: -15px;  
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  
+	filter: alpha(opacity=0); 
+	-moz-opacity: 0; 
+	-khtml-opacity: 0; 
+	opacity: 0; 	
 }
 
 .banner-text-2 h1 {

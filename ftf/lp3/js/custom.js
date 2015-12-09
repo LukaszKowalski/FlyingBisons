@@ -35,6 +35,7 @@ jQuery(window).load(function($) {
 	var animation4 = setInterval(function(){ 
 		jQuery('.banner-text-2 p').animate({opacity: 1, top: 0}, 500);
 		jQuery('.banner-text-2 h1').animate({opacity: 1, top: 0}, 500);
+        jQuery('.banner-text-2 h2').animate({opacity: 1, top: 0}, 500);
 		jQuery('.banner-text-2 span').animate({opacity: 1, top: 0}, 500);
 		jQuery('.banner-text-2 button').animate({opacity: 1, top: 0}, 500);			
 		clearInterval(animation4); 			
