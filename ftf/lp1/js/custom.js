@@ -18,17 +18,17 @@ jQuery(window).load(function($) {
 	var animation1 = setInterval(function(){ 
 		jQuery('.header-top').animate({opacity: 1, top: 0}, 500);	
 		clearInterval(animation1); 
-	}, 1600);
+	}, 500);
 	var animation2 = setInterval(function(){ 
 		jQuery('.banner-form').css('visibility', 'visible').addClass('animated  fadeInUp');
 		clearInterval(animation2); 			
-	}, 2600);
+	}, 500);
 	var animation3 = setInterval(function(){ 
 		jQuery('.banner-text p').animate({opacity: 1, top: 0}, 500);
 		jQuery('.banner-text h1').animate({opacity: 1, top: 0}, 500);
 		jQuery('.banner-text span').animate({opacity: 1, top: 0}, 500);
 		clearInterval(animation3); 
-	}, 3500); 
+	}, 500); 
 	// End of Banner Animations
 
 	// Without Form Banner Animations
@@ -38,11 +38,11 @@ jQuery(window).load(function($) {
 		jQuery('.banner-text-2 span').animate({opacity: 1, top: 0}, 500);
 		jQuery('.banner-text-2 button').animate({opacity: 1, top: 0}, 500);			
 		clearInterval(animation4); 			
-	}, 3500);
+	}, 500);
 	var animation5 = setInterval(function(){ 
 		jQuery('.scrolldown').animate({opacity: 1, top: 0}, 500);
 		clearInterval(animation5); 
-	}, 4500);
+	}, 500);
 	//End Of Without Form Banner Animations		
 })
 jQuery(document).ready(function($) {
