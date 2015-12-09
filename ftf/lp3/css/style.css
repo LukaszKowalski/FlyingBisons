@@ -425,6 +425,7 @@ header .banner-outer {
 /**** LAST MINUT DEAL****/
 .last-deal-bg-yellow {
 	background:url('../images/Photo2.jpg') top center no-repeat;
+    background-size: cover;
 }
 .last-deal-bg-blue {
 	background:url('http://placehold.it/1920x640') top center no-repeat;
@@ -436,7 +437,7 @@ header .banner-outer {
 	background:url('http://placehold.it/1920x640') top center no-repeat;
 }
 #last-deal-section {
-	background-size: cover;
+	
 }
 #last-deal-section .section-heading {
 	padding-bottom: 40px;
