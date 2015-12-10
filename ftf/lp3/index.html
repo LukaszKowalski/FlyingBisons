@@ -36,6 +36,20 @@
           ga('create', 'UA-71101051-2', 'auto');
           ga('send', 'pageview');
         </script>
+        <script>,
+        /**
+        * Funkcja śledząca kliknięcie linku wychodzącego w Google Analytics.
+        * Ta funkcja wykorzystuje prawidłowy URL jako argument i używa go
+        * jako etykiety zdarzenia.
+        */
+        var trackOutboundLink = function(url) {
+           ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+             function () {
+             document.location = url;
+             }
+           });
+            }
+        </script>
     </head>
 	<body>
 		<!-- Loader -->
@@ -73,7 +87,7 @@
 					    				<p><b>05.02 - 14.02.2016</b></p>
 					    				<span class="clearfix">
                                         
-                                            <u><a target="_blank" href="http://crm.feeltheflow.pl/checkout/7"><font color="#f58220">rezerwuj teraz</font></a></u></span>
+                                            <u><a target="_blank" href="http://crm.feeltheflow.pl/checkout/7" onclick="trackOutboundLink('http://crm.feeltheflow.pl/checkout/7'); return false;"><font color="#f58220">rezerwuj teraz</font></a></u></span>
 					    				<button class="submit-btn btn-yellow" onclick="location.href='http://www.feeltheflow.pl/offer/show/76/ferie-ftf-kings-of-winter-age18-25'">
 					    				
 SZCZEGÓŁY WYJAZDU</form></button>
